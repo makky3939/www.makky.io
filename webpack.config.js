@@ -29,6 +29,17 @@ const pug = {
   ]
 }
 
+const es = {
+  entry: {
+    index: `${__dirname}/src/js/index.js`
+  },
+  output: {
+    path: `${__dirname}/dist/js/`,
+    filename: "[name].js"
+  },
+}
+
 module.exports = [
-  pug
+  pug,
+  es
 ]
