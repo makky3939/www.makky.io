@@ -36,7 +36,7 @@ const es = {
   output: {
     path: `${__dirname}/dist/js/`,
     filename: "[name].js"
-  },
+  }
 }
 
 module.exports = [

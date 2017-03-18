@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack",
-    "devserver": "webpack-dev-server --content-base dist/"
+    "build": "webpack -w",
+    "devserver": "http-server ./dist/ --cros"
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,10 @@
     "pug-html-loader": "^1.1.1",
     "webpack": "^2.2.1",
     "webpack-dev-server": "^2.4.2"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.6",
+    "install": "^0.8.7",
+    "npm": "^4.4.1"
   }
 }
