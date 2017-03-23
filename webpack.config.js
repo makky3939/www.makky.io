@@ -3,7 +3,9 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin')
 
 const pug = {
   entry: {
-    index: `${__dirname}/src/index.pug`
+    index: `${__dirname}/src/index.pug`,
+    about: `${__dirname}/src/about.pug`,
+    portfolio: `${__dirname}/src/portfolio.pug`
   },
   output: {
     path: `${__dirname}/dist/`,
