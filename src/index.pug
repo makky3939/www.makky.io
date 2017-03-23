@@ -1,0 +1,62 @@
+extends pug/layouts/default.pug
+
+block content
+  .jumbotron
+    .container
+      .row.justify-content-center
+        .col-sm-8
+          h1.text-center Hello I'm Masaki Kobayashi
+  
+  .container
+    .row.justify-content-center
+      .col-sm-8
+        .row
+          .col
+            h2 blog posts
+            hr
+        .row
+          each val in [1, 2, 3, 4, 5, 6]
+            .col-sm-4
+              .card.mb-3
+                .card-block
+                  h3.card-title= val
+                  p.card-text hogehoge
+        .row
+          .col
+            p more contents hogehoge
+
+  .container
+    .row.justify-content-center
+      .col-sm-8
+        .row
+          .col
+            h2 photos
+            hr
+        .row
+          each val in [1, 2, 3, 4, 5, 6]
+            .col-sm-4
+              .card.mb-3
+                .card-block
+                  h3.card-title= val
+                  p.card-text hogehoge
+        .row
+          .col
+            p more contents hogehoge
+
+  .container
+    .row.justify-content-center
+      .col-sm-8
+        .row
+          .col
+            h2 products
+            hr
+        .row
+          each val in [1, 2, 3, 4, 5, 6]
+            .col-sm-4
+              .card.mb-3
+                .card-block
+                  h3.card-title= val
+                  p.card-text hogehoge
+        .row
+          .col
+            p more contents hogehoge
