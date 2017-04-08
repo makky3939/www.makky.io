@@ -1,0 +1,23 @@
+extends pug/layouts/default.pug
+
+block content
+  .jumbotron
+    .container
+      .row.justify-content-center
+        .col-sm-10
+          h1 Photo
+
+  .container
+    .row.justify-content-center
+      .col-sm-10
+        each year in contents["photos"]
+          h2= year.year
+          hr
+          .row
+            each photo in year["albums"]
+              .col-sm-4.mb-3
+                .card
+                  .thumbnail-1x1(style='background-image: url(' + photo.thumbnail + ')')
+                
+                  .card-footer
+                    span.text-muted= `${contents["photos"][0]["year"]}/${photo.month}`

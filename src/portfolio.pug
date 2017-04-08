@@ -4,5 +4,26 @@ block content
   div(class='jumbotron')
     div(class='container')
       div(class='row justify-content-center')
-        div(class='col-sm-8')
+        div(class='col-sm-10')
           h1 Portfolio
+
+  .container
+    .row.justify-content-center
+      each portfolio in contents["portfolios"]
+        .col-sm-10
+          h2=portfolio.title
+          p=portfolio.description
+
+          //- h3 Thumbnails
+          .row
+            each thumbnail in portfolio["thumbnails"]
+              .col-sm-6.mb-3
+                .card
+                  .thumbnail-16x9(style='background-image: url(' + thumbnail + ')')
+
+          h3 Links
+          ul
+            each link in portfolio["links"]
+              li
+                a(href=link.url target='_blank')=link.title
+          hr
