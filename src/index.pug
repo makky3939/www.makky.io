@@ -1,11 +1,12 @@
 extends pug/layouts/default.pug
 
 block content
-  section.section.py-5.bg-blue
+  //- section.section.py-5.bg-blue(style='background: url(/image/photo/2016/3.jpg)')
+  section.section.py-5(style='background: url(/image/photo/2016/3.jpg)')
     .container.py-5
       .row.justify-content-center
         .col-md-6
-          .card.my-5
+          .card.my-5.card-translucent
             .card-block
               .row
                 .col-md-4
@@ -112,7 +113,7 @@ block content
             each portfolio in contents["portfolios"]
               .col-sm-6.mb-3
                 .card
-                  .thumbnail-16x9(style='background-image: url(' + portfolio.thumbnails[0] + ')')
+                  .thumbnail-16x10(style='background-image: url(' + portfolio.thumbnails[0] + ')')
                   .card-footer
                     span.text-muted= `${portfolio.title}`
 
