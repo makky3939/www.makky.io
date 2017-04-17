@@ -2,7 +2,7 @@ extends pug/layouts/default.pug
 
 block content
   //- section.section.py-5.bg-blue(style='background: url(/image/photo/2016/3.jpg)')
-  section.section.py-5(style='background: url(/image/photo/2016/3.jpg)')
+  section.section.py-5.bg-inverse
     .container.py-5
       .row.justify-content-center
         .col-md-6
@@ -63,18 +63,19 @@ block content
     .container
       .row.justify-content-center
         .col-sm-10
-          .row
-            each photo in contents["photos"][0]["albums"].slice(0, 6)
-              .col-sm-4.mb-3
-                .card
-                  img(class='card-img-top' src=photo.thumbnail width='100%' hright='auto')
+          p TBD
+    //-       .row
+    //-         each photo in contents["photos"][0]["albums"].slice(0, 6)
+    //-           .col-sm-4.mb-3
+    //-             .card
+    //-               img(class='card-img-top' src=photo.thumbnail width='100%' hright='auto')
                 
-                  .card-footer
-                    span.text-muted= `${contents["photos"][0]["year"]}/${photo.month}`
+    //-               .card-footer
+    //-                 span.text-muted= `${contents["photos"][0]["year"]}/${photo.month}`
 
-      .row.justify-content-center
-        .col-sm-4.py-4
-          a(class='btn btn-primary btn-block' href='//blog.makky.io') show more blog posts
+      //- .row.justify-content-center
+      //-   .col-sm-4.py-4
+      //-     a(class='btn btn-primary btn-block' href='//blog.makky.io') show more blog posts
 
   section.section.py-5
     .container
@@ -95,9 +96,9 @@ block content
                   .card-footer
                     span.text-muted= `${contents["photos"][0]["year"]}/${photo.month}`
 
-      .row.justify-content-center
-        .col-sm-4.py-4
-          a(class='btn btn-primary btn-block' href='/photo.html') show more photos
+      //- .row.justify-content-center
+      //-   .col-sm-4.py-4
+      //-     a(class='btn btn-primary btn-block' href='/photo.html') show more photos
 
   section.section.py-5
     .container
@@ -117,6 +118,6 @@ block content
                   .card-footer
                     span.text-muted= `${portfolio.title}`
 
-      .row.justify-content-center
-        .col-sm-4.py-4
-          a(class='btn btn-primary btn-block' href='/portfolio.html') show more portfolio
+      //- .row.justify-content-center
+      //-   .col-sm-4.py-4
+      //-     a(class='btn btn-primary btn-block' href='/portfolio.html') show more portfolio

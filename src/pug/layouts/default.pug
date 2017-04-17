@@ -12,38 +12,46 @@ html
       rel='stylesheet'
       href='/style/index.css'
     )
+
+    link(
+      href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css"
+      rel="stylesheet"
+    )
     //- include includes/head.pug
 
   body
     block navbar
       nav(class='navbar navbar-toggleable-md navbar-inverse sticky-top')
         .container
-          a(class='navbar-brand' href="/index.html") makky.io
+          a(class='navbar-brand' href="/index.html")
+            span www.
+            b makky
+            span .io
 
-          div(class="collapse navbar-collapse")
-            ul(class="navbar-nav mr-auto")
-              li(class="nav-item")
-                a(class="nav-link" href="/photo.html") photo
+          //- div(class="collapse navbar-collapse")
+          //-   ul(class="navbar-nav mr-auto")
+          //-     li(class="nav-item")
+          //-       a(class="nav-link" href="/photo.html") photo
 
-              li(class="nav-item")
-                a(class="nav-link" href="/portfolio.html") portfolio
+          //-     li(class="nav-item")
+          //-       a(class="nav-link" href="/portfolio.html") portfolio
 
     block content
 
     block footer
       .bg-inverse.text-white.py-4
         .container
-          ul(class="nav")
-            li(class="nav-item")
-              a(class="nav-link" href="/index.html") top
+          //- ul(class="nav")
+          //-   li(class="nav-item")
+          //-     a(class="nav-link" href="/index.html") top
 
-            li(class="nav-item")
-              a(class="nav-link" href="/photo.html") photo
+          //-   li(class="nav-item")
+          //-     a(class="nav-link" href="/photo.html") photo
 
-            li(class="nav-item")
-              a(class="nav-link" href="/portfolio.html") portfolio
+          //-   li(class="nav-item")
+          //-     a(class="nav-link" href="/portfolio.html") portfolio
 
-          p(class='px-3')
+          p(class='px-3 my-0')
             small &copy; makky.io All Rights Reserved.
 
     //- include includes/foot.pug
