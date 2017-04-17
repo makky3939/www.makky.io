@@ -1,46 +1,74 @@
+include ../../pug/contents/index.pug
+
 doctype html
 html
   head
     meta(charset='utf-8')
-    meta(name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no')
-    link(rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css' integrity='sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ' crossorigin='anonymous')
+    meta(
+      name='viewport'
+      content='width=device-width, initial-scale=1, shrink-to-fit=no'
+    )
+    link(
+      rel='stylesheet'
+      href='/style/index.css'
+    )
+
+    link(
+      href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css"
+      rel="stylesheet"
+    )
     //- include includes/head.pug
 
   body
     block navbar
-      nav(class='navbar navbar-toggleable-md navbar-light bg-faded sticky-top')
-        div(class='container')
+      nav(class='navbar navbar-toggleable-md navbar-inverse sticky-top')
+        .container
           a(class='navbar-brand' href="/index.html")
-            b makky.io
+            span www.
+            b makky
+            span .io
 
-          div(class="collapse navbar-collapse")
-            ul(class="navbar-nav mr-auto")
-              li(class="nav-item")
-                a(class="nav-link" href="/portfolio.html") portfolio
+          //- div(class="collapse navbar-collapse")
+          //-   ul(class="navbar-nav mr-auto")
+          //-     li(class="nav-item")
+          //-       a(class="nav-link" href="/photo.html") photo
 
-              li(class="nav-item")
-                a(class="nav-link" href="/about.html") about
-
+          //-     li(class="nav-item")
+          //-       a(class="nav-link" href="/portfolio.html") portfolio
 
     block content
 
-    block footer    
-      nav(class='navbar navbar-toggleable-md navbar-light bg-faded')
-        div(class='container')
-          span.navbar-text makky.io
+    block footer
+      .bg-inverse.text-white.py-4
+        .container
+          //- ul(class="nav")
+          //-   li(class="nav-item")
+          //-     a(class="nav-link" href="/index.html") top
 
-          div(class="collapse navbar-collapse")
-            ul(class="navbar-nav mr-auto")
-              li(class="nav-item")
-                a(class="nav-link" href="/portfolio.html") portfolio
+          //-   li(class="nav-item")
+          //-     a(class="nav-link" href="/photo.html") photo
 
-              li(class="nav-item")
-                a(class="nav-link" href="/about.html") about
+          //-   li(class="nav-item")
+          //-     a(class="nav-link" href="/portfolio.html") portfolio
 
+          p(class='px-3 my-0')
+            small &copy; makky.io All Rights Reserved.
 
     //- include includes/foot.pug
-    script(src='https://code.jquery.com/jquery-3.1.1.slim.min.js' integrity='sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n' crossorigin='anonymous')
-    script(src='https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js' integrity='sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb' crossorigin='anonymous')
-    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js' integrity='sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn' crossorigin='anonymous')
+    //- script(
+    //-   src='https://code.jquery.com/jquery-3.1.1.slim.min.js'
+    //-   integrity='sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n'
+    //-   crossorigin='anonymous'
+    //- )
+    //- script(
+    //-   src='https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js'
+    //-   integrity='sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb'
+    //-   crossorigin='anonymous'
+    //- )
+    //- script(
+    //-   src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js'
+    //-   integrity='sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn'
+    //-   crossorigin='anonymous'
+    //- )
 
-    //- script(src='/js/index.js')
+    //- script(src='/style/index.js')

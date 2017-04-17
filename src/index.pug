@@ -1,62 +1,123 @@
 extends pug/layouts/default.pug
 
 block content
-  .jumbotron
+  //- section.section.py-5.bg-blue(style='background: url(/image/photo/2016/3.jpg)')
+  section.section.py-5.bg-inverse
+    .container.py-5
+      .row.justify-content-center
+        .col-md-6
+          .card.my-5.card-translucent
+            .card-block
+              .row
+                .col-md-4
+                  img(src='/image/icon.png' width='100%' height='auto')
+                .col-md-8
+                  h3.card-title Masaki Kobayashi
+                  hr
+                  dl
+                    dt 所属
+                    dd 筑波大学 図書館情報メディア研究科 図書館情報メディア専攻
+
+                    dt blog
+                    dd
+                      a(href='//blog.makky.io') blog.makky.io
+
+                    dt SNS
+                    dd
+                      span
+                        a(href='' target='_brank')
+                          i(class='fa fa-fw fa-twitter')
+                      span
+                        a(href='' target='_brank')
+                          i(class='fa fa-fw fa-facebook')
+                      span
+                        a(href='' target='_brank')
+                          i(class='fa fa-fw fa-instagram')
+                      span
+                        a(href='' target='_brank')
+                          i(class='fa fa-fw fa-slideshare')
+
+  section.section.py-5
     .container
       .row.justify-content-center
-        .col-sm-8
-          h1.text-center Hello I'm Masaki Kobayashi
-  
-  .container
-    .row.justify-content-center
-      .col-sm-8
-        .row
-          .col
-            h2 blog posts
-            hr
-        .row
-          each val in [1, 2, 3, 4, 5, 6]
-            .col-sm-4
-              .card.mb-3
-                .card-block
-                  h3.card-title= val
-                  p.card-text hogehoge
-        .row
-          .col
-            p more contents hogehoge
+        .col-sm-10
+          h1 About
+          hr
 
-  .container
-    .row.justify-content-center
-      .col-sm-8
-        .row
-          .col
-            h2 photos
-            hr
-        .row
-          each val in [1, 2, 3, 4, 5, 6]
-            .col-sm-4
-              .card.mb-3
-                .card-block
-                  h3.card-title= val
-                  p.card-text hogehoge
-        .row
-          .col
-            p more contents hogehoge
+    .container
+      .row.justify-content-center
+        .col-sm-10
+          each ab in contents["about"]
+            h2= ab["title"]
+            ul
+              each item in ab["items"]
+                li= item
 
-  .container
-    .row.justify-content-center
-      .col-sm-8
-        .row
-          .col
-            h2 products
-            hr
-        .row
-          each val in [1, 2, 3, 4, 5, 6]
-            .col-sm-4
-              .card.mb-3
-                .card-block
-                  h3.card-title= val
-                  p.card-text hogehoge
-        .row
-          .col
-            p more contents hogehoge
+  section.section.py-5
+    .container
+      .row.justify-content-center
+        .col-sm-10
+          h1 Blog post
+          hr
+
+    .container
+      .row.justify-content-center
+        .col-sm-10
+          p TBD
+    //-       .row
+    //-         each photo in contents["photos"][0]["albums"].slice(0, 6)
+    //-           .col-sm-4.mb-3
+    //-             .card
+    //-               img(class='card-img-top' src=photo.thumbnail width='100%' hright='auto')
+                
+    //-               .card-footer
+    //-                 span.text-muted= `${contents["photos"][0]["year"]}/${photo.month}`
+
+      //- .row.justify-content-center
+      //-   .col-sm-4.py-4
+      //-     a(class='btn btn-primary btn-block' href='//blog.makky.io') show more blog posts
+
+  section.section.py-5
+    .container
+      .row.justify-content-center
+        .col-sm-10
+          h1 Photo
+          hr
+
+    .container
+      .row.justify-content-center
+        .col-sm-10
+          .row
+            each photo in contents["photos"][0]["albums"].slice(0, 6)
+              .col-sm-4.mb-3
+                .card
+                  .thumbnail-1x1(style='background-image: url(' + photo.thumbnail + ')')
+                
+                  .card-footer
+                    span.text-muted= `${contents["photos"][0]["year"]}/${photo.month}`
+
+      //- .row.justify-content-center
+      //-   .col-sm-4.py-4
+      //-     a(class='btn btn-primary btn-block' href='/photo.html') show more photos
+
+  section.section.py-5
+    .container
+      .row.justify-content-center
+        .col-sm-10
+          h1 Portfolio
+          hr
+
+    .container
+      .row.justify-content-center
+        .col-sm-10
+          .row
+            each portfolio in contents["portfolios"]
+              .col-sm-6.mb-3
+                .card
+                  .thumbnail-16x10(style='background-image: url(' + portfolio.thumbnails[0] + ')')
+                  .card-footer
+                    span.text-muted= `${portfolio.title}`
+
+      //- .row.justify-content-center
+      //-   .col-sm-4.py-4
+      //-     a(class='btn btn-primary btn-block' href='/portfolio.html') show more portfolio
