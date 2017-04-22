@@ -1,41 +1,42 @@
 extends pug/layouts/default.pug
 
 block content
-  //- section.section.py-5.bg-blue(style='background: url(/image/photo/2016/3.jpg)')
-  section.section.py-5.bg-inverse
+  section.section.py-5.bg-gradient
     .container.py-5
       .row.justify-content-center
         .col-md-6
-          .card.my-5.card-translucent
-            .card-block
-              .row
-                .col-md-4
-                  img(src='/image/icon.png' width='100%' height='auto')
-                .col-md-8
-                  h3.card-title Masaki Kobayashi
-                  hr
-                  dl
-                    dt 所属
-                    dd 筑波大学 図書館情報メディア研究科 図書館情報メディア専攻
+          .card.my-5.card-block.card-v
+            .row
+              .col-md-4.hidden-sm-down
+                img(src='/image/icon.png' width='100%' height='auto')
+              .col-md-8
+                h3.card-title Masaki Kobayashi
+                hr
+                dl
+                  dt 所属:
+                  dd
+                    |筑波大学 図書館情報メディア研究科
+                    br
+                    |図書館情報メディア専攻
 
-                    dt blog
-                    dd
-                      a(href='//blog.makky.io') blog.makky.io
+                  dt blog:
+                  dd
+                    a(href='//blog.makky.io') blog.makky.io
 
-                    dt SNS
-                    dd
-                      span
-                        a(href='' target='_brank')
-                          i(class='fa fa-fw fa-twitter')
-                      span
-                        a(href='' target='_brank')
-                          i(class='fa fa-fw fa-facebook')
-                      span
-                        a(href='' target='_brank')
-                          i(class='fa fa-fw fa-instagram')
-                      span
-                        a(href='' target='_brank')
-                          i(class='fa fa-fw fa-slideshare')
+                  dt SNS:
+                  dd
+                    span
+                      a(href='https://twitter.com/_Makky_' target='_brank')
+                        i(class='fa fa-fw fa-lg fa-twitter')
+                    span
+                      a(href='https://www.facebook.com/masaki.kobayashi.1485' target='_brank')
+                        i(class='fa fa-fw fa-lg fa-facebook')
+                    span
+                      a(href='https://www.instagram.com/makky3939/' target='_brank')
+                        i(class='fa fa-fw fa-lg fa-instagram')
+                    span
+                      a(href='https://www.slideshare.net/masakikobayashi1485' target='_brank')
+                        i(class='fa fa-fw fa-lg fa-slideshare')
 
   section.section.py-5
     .container

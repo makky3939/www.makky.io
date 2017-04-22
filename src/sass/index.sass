@@ -1,46 +1,6 @@
 $fa-font-path: "/style"
 @import "~bootstrap/scss/bootstrap"
 @import '~font-awesome/scss/font-awesome.scss'
-// https://material.io/color/#!/?view.left=0&view.right=0&primary.color=2196F3
-
-
-body
-  font-family: "Noto Sans Japanese"
-  letter-spacing: 0.01rem
-  color: #24292e
-
-.navbar
-  background: rgba(#263238, 0.96)
-  // border-bottom: 1px solid #efefef
-
-.jumbotron
-  background: #0085c1
-  border-radius: 0
-  color: #fff
-
-.card
-  border-radius: 0
-
-.card-img-top
-  border-radius: 0
-
-.card-footer
-  background: #fff
-
-.section
-  background-size: cover !important
-  background-position: center !important
-
-.card-translucent
-  background-color: rgba(#edf0f2, 0.98)
-  border-color: rgba(#0085c1, 1)
-  border-width: 3px
-  border-right-width: 0
-  border-left-width: 0
-  border-top-width: 0
-
-.section:nth-child(2n+1)
-  background: #f7f7f7
 
 .thumbnail-16x10
   background-size: cover
@@ -54,8 +14,99 @@ body
   width: 100%
   background-position: center
 
-.bg-blue
-  background: #0085c1
+body
+  font-family: "Noto Sans Japanese"
+  color: #24292e
+  font-weight: 300
+  font-size: 16px
 
-.bg-inverse
-  background: rgba(#263238, 0.96) !important
+.navbar-toggleable-md > .container
+  padding-left: inherit
+  padding-right: inherit
+  display: block
+
+.navbar-light
+  background: rgba(#fefefe, 0.8)
+
+  .navbar-brand,
+  .navbar-toggler
+    color: #24292e
+
+  .navbar-brand
+    font-size: 1.2rem
+    b
+      font-weight: 800
+
+.section:nth-child(2n+1)
+  background: #f7f7f7
+
+.bg-gradient
+  $linear-gradient_1: linear-gradient( -10deg, rgba(#E1F5FE, 0) 90%, rgba(#E1F5FE, 0.1) 15%)
+  $linear-gradient_2: linear-gradient(-100deg, rgba(#E1F5FE, 0) 90%, rgba(#E1F5FE, 0.1) 15%)
+  $linear-gradient_3: linear-gradient(  20deg, rgba(#E1F5FE, 0) 15%, rgba(#E1F5FE, 0.1) 15%)
+  $linear-gradient_4: linear-gradient( -20deg, rgba(#E1F5FE, 0) 15%, rgba(#E1F5FE, 0.1) 15%)
+  $linear-gradient_5: linear-gradient(-100deg, rgba(#E1F5FE, 0) 15%, rgba(#E1F5FE, 0.1) 15%)
+  $radial-gradient: radial-gradient(circle, #0288D1 90%, #0277BD 100%)
+  background: $linear-gradient_1, $linear-gradient_2, $linear-gradient_3, $linear-gradient_4, $linear-gradient_5, $radial-gradient
+
+.card-v
+  background: rgba(#fff, 0.96)
+  border: 2px solid rgba(#fff, 0.7)
+
+.card-v .card-title,
+.card-v dt
+  font-weight: 300
+
+.card
+  border-radius: 0
+
+.card-img-top
+  border-radius: 0
+
+.card-footer
+  background: #fff
+
+  // background:
+  //   linear-gradient(-10deg, rgba(245, 33, 33, 0) 87%, rgba(255, 255, 255, 0.08) 15%),
+  //   linear-gradient(-100deg, rgba(27, 0, 255, 0) 90%, rgba(255, 255, 255, 0.08) 15%),
+  // linear-gradient(20deg, rgba(255, 33, 33, 0) 84%,rgba(255, 255, 255, 0.08) 10%),
+  // linear-gradient(-20deg, rgba(255, 33, 33, 0) 15%, rgba(255, 255, 255, 0.08) 15%),
+  // radial-gradient(circle, #0087C9 90%, #0087C9 100%)
+
+
+// // https://material.io/color/#!/?view.left=0&view.right=0&primary.color=2196F3
+
+
+
+// .navbar
+//   background: rgba(#fff, 0)
+//   // border-bottom: 1px solid #efefef
+
+// .jumbotron
+//   background: #0085c1
+//   border-radius: 0
+//   color: #fff
+
+
+
+// .card-title
+//   font-weight: 100
+
+
+
+// .section
+//   background-size: cover !important
+//   background-position: center !important
+
+
+
+
+
+
+
+// .bg-blue
+//   background: #0085c1
+
+// .bg-inverse
+//   // background: rgba(#263238, 0.96) !important
+//   background: linear-gradient(-10deg, rgba(245, 33, 33, 0) 87%, rgba(255, 255, 255, 0.08) 15%), linear-gradient(-100deg, rgba(27, 0, 255, 0) 90%, rgba(255, 255, 255, 0.08) 15%), linear-gradient(20deg, rgba(255, 33, 33, 0) 84%, rgba(255, 255, 255, 0.08) 10%), linear-gradient(-20deg, rgba(255, 33, 33, 0) 15%, rgba(255, 255, 255, 0.08) 15%), radial-gradient(circle, #0087C9 90%, #0087C9 100%)
