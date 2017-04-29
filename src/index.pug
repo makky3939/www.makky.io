@@ -9,40 +9,28 @@ block content
             .row
               .col-md-4.hidden-sm-down
                 img(src='/image/icon.png' width='100%' height='auto')
+
               .col-md-8
-                h3.card-title Masaki Kobayashi
+                h3.card-title= contents["common"]["name"]
                 hr
+                p!= contents["common"]["majorin"]
                 dl
-                  dt 所属:
+                  dt Interests:
                   dd
-                    |筑波大学 図書館情報メディア研究科
-                    br
-                    |図書館情報メディア専攻
+                    each interest in contents["common"]["interests"]
+                      span(class='px-1')= interest
 
-                  dt interest:
+                  dt Links:
                   dd
-                    span Web,
-                    span JavaScript,
-                    span Drone
+                    each link in contents["common"]["links"]
+                      a(href=link.url target='_brank')= link.name
 
-                  dt blog:
+                  dt Accounts:
                   dd
-                    a(href='//blog.makky.io' target='_brank') blog.makky.io
-
-                  dt SNS:
-                  dd
-                    span
-                      a(href='https://twitter.com/_Makky_' target='_brank')
-                        i(class='fa fa-fw fa-lg fa-twitter')
-                    span
-                      a(href='https://www.facebook.com/masaki.kobayashi.1485' target='_brank')
-                        i(class='fa fa-fw fa-lg fa-facebook')
-                    span
-                      a(href='https://www.instagram.com/makky3939/' target='_brank')
-                        i(class='fa fa-fw fa-lg fa-instagram')
-                    span
-                      a(href='https://www.slideshare.net/masakikobayashi1485' target='_brank')
-                        i(class='fa fa-fw fa-lg fa-slideshare')
+                    each account in contents["common"]["accounts"]
+                      span
+                        a(href=account.url target='_brank')
+                          i(class="fa fa-fw fa-lg fa-" + account.name)
 
   section.section.py-5
     .container
@@ -51,7 +39,6 @@ block content
           h1 About
           hr
 
-    .container
       .row.justify-content-center
         .col-sm-10
           each ab in contents["about"]
@@ -67,22 +54,14 @@ block content
           h1 Blog post
           hr
 
-    .container
       .row.justify-content-center
         .col-sm-10
           p TBD
-    //-       .row
-    //-         each photo in contents["photos"][0]["albums"].slice(0, 6)
-    //-           .col-sm-4.mb-3
-    //-             .card
-    //-               img(class='card-img-top' src=photo.thumbnail width='100%' hright='auto')
-                
-    //-               .card-footer
-    //-                 span.text-muted= `${contents["photos"][0]["year"]}/${photo.month}`
 
-      //- .row.justify-content-center
-      //-   .col-sm-4.py-4
-      //-     a(class='btn btn-primary btn-block' href='//blog.makky.io') show more blog posts
+      .row.justify-content-center
+        .col-sm-10.text-center
+          hr
+          a(class='btn btn-primary disabled' href='' ) Show more blog posts
 
   section.section.py-5
     .container
@@ -91,21 +70,20 @@ block content
           h1 Photo
           hr
 
-    .container
       .row.justify-content-center
         .col-sm-10
           .row
             each photo in contents["photos"][0]["albums"].slice(0, 6)
               .col-sm-4.mb-3
                 .card
-                  .thumbnail-1x1(style='background-image: url(' + photo.thumbnail + ')')
-                
+                  .thumbnail-16x10(style='background-image: url(' + photo.thumbnail + ')')
                   .card-footer
                     span.text-muted= `${contents["photos"][0]["year"]}/${photo.month}`
 
-      //- .row.justify-content-center
-      //-   .col-sm-4.py-4
-      //-     a(class='btn btn-primary btn-block' href='/photo.html') show more photos
+      .row.justify-content-center
+        .col-sm-10.text-center
+          hr
+          a(class='btn btn-primary disabled' href='' ) Show more photos
 
   section.section.py-5
     .container
@@ -114,7 +92,6 @@ block content
           h1 Portfolio
           hr
 
-    .container
       .row.justify-content-center
         .col-sm-10
           .row
@@ -125,6 +102,7 @@ block content
                   .card-footer
                     span.text-muted= `${portfolio.title}`
 
-      //- .row.justify-content-center
-      //-   .col-sm-4.py-4
-      //-     a(class='btn btn-primary btn-block' href='/portfolio.html') show more portfolio
+      .row.justify-content-center
+        .col-sm-10.text-center
+          hr
+          a(class='btn btn-primary disabled' href='' ) Show more portfolios
