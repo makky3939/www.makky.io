@@ -15,7 +15,7 @@ $fa-font-path: "/style"
   background-position: center
 
 body
-  font-family: "Noto Sans Japanese"
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI","Noto Sans Japanese","ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
   color: #24292e
   font-weight: 300
   font-size: 16px
@@ -25,9 +25,11 @@ body
   padding-right: inherit
   display: block
 
-.navbar-light
-  background: rgba(#fefefe, 0)
+.navbar-overlay
+  background: rgba(#fefefe, 0.92)
 
+.navbar-light
+  transition: all 0.2s ease
   .navbar-brand,
   .navbar-toggler
     color: #24292e
@@ -46,8 +48,11 @@ body
   $linear-gradient_3: linear-gradient(  20deg, rgba(#E1F5FE, 0) 15%, rgba(#E1F5FE, 0.1) 15%)
   $linear-gradient_4: linear-gradient( -20deg, rgba(#E1F5FE, 0) 15%, rgba(#E1F5FE, 0.1) 15%)
   $linear-gradient_5: linear-gradient(-100deg, rgba(#E1F5FE, 0) 15%, rgba(#E1F5FE, 0.1) 15%)
-  $radial-gradient: radial-gradient(circle, #0288D1 90%, #0277BD 100%)
+  $radial-gradient: radial-gradient(circle, #0277BD 0%, #0277BD 100%)
   background: $linear-gradient_1, $linear-gradient_2, $linear-gradient_3, $linear-gradient_4, $linear-gradient_5, $radial-gradient
+
+.card
+  overflow: hidden
 
 .card-v
   background: rgba(#fff, 1)
@@ -70,53 +75,9 @@ body
 .card-v dt
   font-weight: 800
 
-.card-img-top
-  border-radius: 0
-
 .card-footer
   background: #fff
+  padding: 0.65rem 1.25rem
 
-  // background:
-  //   linear-gradient(-10deg, rgba(245, 33, 33, 0) 87%, rgba(255, 255, 255, 0.08) 15%),
-  //   linear-gradient(-100deg, rgba(27, 0, 255, 0) 90%, rgba(255, 255, 255, 0.08) 15%),
-  // linear-gradient(20deg, rgba(255, 33, 33, 0) 84%,rgba(255, 255, 255, 0.08) 10%),
-  // linear-gradient(-20deg, rgba(255, 33, 33, 0) 15%, rgba(255, 255, 255, 0.08) 15%),
-  // radial-gradient(circle, #0087C9 90%, #0087C9 100%)
-
-
-// // https://material.io/color/#!/?view.left=0&view.right=0&primary.color=2196F3
-
-
-
-// .navbar
-//   background: rgba(#fff, 0)
-//   // border-bottom: 1px solid #efefef
-
-// .jumbotron
-//   background: #0085c1
-//   border-radius: 0
-//   color: #fff
-
-
-
-// .card-title
-//   font-weight: 100
-
-
-
-// .section
-//   background-size: cover !important
-//   background-position: center !important
-
-
-
-
-
-
-
-// .bg-blue
-//   background: #0085c1
-
-// .bg-inverse
-//   // background: rgba(#263238, 0.96) !important
-//   background: linear-gradient(-10deg, rgba(245, 33, 33, 0) 87%, rgba(255, 255, 255, 0.08) 15%), linear-gradient(-100deg, rgba(27, 0, 255, 0) 90%, rgba(255, 255, 255, 0.08) 15%), linear-gradient(20deg, rgba(255, 33, 33, 0) 84%, rgba(255, 255, 255, 0.08) 10%), linear-gradient(-20deg, rgba(255, 33, 33, 0) 15%, rgba(255, 255, 255, 0.08) 15%), radial-gradient(circle, #0087C9 90%, #0087C9 100%)
+  .text-muted
+    color: #24292e !important

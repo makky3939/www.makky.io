@@ -46,7 +46,9 @@ const image = {
   context: __dirname + '/src/image/',
   entry: {
     jpg: glob.sync(`${__dirname}/src/image/**/*.jpg`),
-    png: glob.sync(`${__dirname}/src/image/**/*.png`)
+    png: glob.sync(`${__dirname}/src/image/**/*.png`),
+    ico: glob.sync(`${__dirname}/src/image/**/*.ico`),
+    json: glob.sync(`${__dirname}/src/image/**/*.json`)
   },
   output: {
     path: `${__dirname}/dist/image/`,
@@ -55,7 +57,7 @@ const image = {
   module: {
     loaders: [
       {
-        test: /\.(jpg|png)$/,
+        test: /\.(jpg|png|ico|json)$/,
         loaders: 'file-loader?name=[path][name].[ext]'
       }
     ]
