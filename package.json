@@ -20,6 +20,9 @@
   },
   "homepage": "https://github.com/makky3939/www.makky.io#readme",
   "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
     "bootstrap": "^4.0.0-alpha.6",
     "css-loader": "^0.28.0",
     "extract-text-webpack-plugin": "^2.1.0",
