@@ -8,10 +8,8 @@ $(document).ready(function() {
     const windowTop = $(this).scrollTop()
 
     if (windowTop > contentPosition) {
-      console.log(true)
       $nav.addClass('navbar-overlay')
     } else {
-      console.log(false)
       $nav.removeClass('navbar-overlay')
     }
   })
