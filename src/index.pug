@@ -5,16 +5,16 @@ block content
     .container.py-5
       .row.justify-content-center
         .col-md-6.py-3
-          .card.card-block.card-v
+          .card.card-body.card-v
             .row
-              .col-md-4.hidden-sm-down
+              .col-md-4.mb-3
                 img(src='/image/icon.png' width='100%' height='auto')
 
               .col-md-8
                 h3.card-title= contents["common"]["name"]
                 hr
                 p!= contents["common"]["majorin"]
-                dl
+                dl.mb-0
                   dt Interests:
                   dd
                     each interest in contents["common"]["interests"]
@@ -24,6 +24,7 @@ block content
                   dd
                     each link in contents["common"]["links"]
                       a(href=link.url target='_brank')= link.name
+                      br
 
                   dt Accounts:
                   dd

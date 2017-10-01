@@ -31,7 +31,7 @@ $(document).ready(function() {
       const _link = $(item).find('link').text()
 
       const $newPost = $(`
-        <li>
+        <li class='mb-1'>
           <a href='${_link}' target='_blank'>
             ${_title}
           </a>
