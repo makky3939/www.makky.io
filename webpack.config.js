@@ -88,26 +88,28 @@ const sass = {
     filename: '[name].js'
   },
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.sass$/,
-        loader: ExtractTextPlugin.extract({ fallback: 'style-loader', use: 'css-loader?-url!sass-loader' })
+        use: ExtractTextPlugin.extract({
+          use: ['css-loader', 'sass-loader']
+        })
       },
       {
         test: /\.woff(\?v=\d+\.\d+\.\d+)?$/,
-        loader: 'file-loader?name=[name].[ext]&limit=10000&mimetype=application/font-woff'
+        use: 'file-loader?name=[name].[ext]&limit=10000&mimetype=application/font-woff'
       },
       {
         test: /\.woff2(\?v=\d+\.\d+\.\d+)?$/,
-        loader: "file-loader?name=[name].[ext]&limit=10000&mimetype=application/font-woff"
+        use: "file-loader?name=[name].[ext]&limit=10000&mimetype=application/font-woff"
       },
       {
         test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/,
-        loader: "file-loader?name=[name].[ext]&limit=10000&mimetype=application/octet-stream"
+        use: "file-loader?name=[name].[ext]&limit=10000&mimetype=application/octet-stream"
       },
       {
         test: /\.svg(\?v=\d+\.\d+\.\d+)?$/,
-        loader: "file-loader?name=[name].[ext]&limit=10000&mimetype=image/svg+xml"
+        use: "file-loader?name=[name].[ext]&limit=10000&mimetype=image/svg+xml"
       }
     ]
   },
