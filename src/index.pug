@@ -78,7 +78,8 @@ block content
                 .card
                   .thumbnail-16x10(style='background-image: url(' + photo.thumbnail + ')')
                   .card-footer
-                    span.text-muted= `${contents["photos"][0]["year"]}/${photo.month}`
+                    a(href=photo.link target='_blank')
+                      = `${contents["photos"][0]["year"]}/${photo.month}`
 
       .row.justify-content-center
         .col-sm-10.text-center
