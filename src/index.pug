@@ -73,8 +73,8 @@ block content
       .row.justify-content-center
         .col-sm-10
           .row
-            each photo in contents["photos"][0]["albums"].slice(0, 6)
-              .col-sm-4.mb-3
+            each photo in contents["photos"][0]["albums"].slice(0, 9)
+              .col-sm-4.mb-3.col-6
                 .card
                   .thumbnail-16x10(style='background-image: url(' + photo.thumbnail + ')')
                   .card-footer
