@@ -17,7 +17,7 @@ const pug = {
       {
         test: /\.pug/,
         loaders: ExtractTextPlugin.extract({
-          loader: [
+          use: [
             'html-loader',
             'pug-html-loader'
           ]
