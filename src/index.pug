@@ -6,32 +6,31 @@ block content
       .row.justify-content-center
         .col-md-6.py-3
           .card.card-body.card-v
-            .row
-              .col-md-4.mb-3
-                img(src='/image/icon.png' width='100%' height='auto')
+            h3.card-title= contents["common"]["name"]
+            hr.mt-0
+            p!= contents["common"]["majorin"]
+            dl.mb-0
+              dt Research Topics:
+              dd
+                each topic in contents["common"]["research_topics"]
+                  span(class='px-1')= topic
+            dl.mb-0
+              dt Interests:
+              dd
+                each interest in contents["common"]["interests"]
+                  span(class='px-1')= interest
+              dt Links:
+              dd
+                each link in contents["common"]["links"]
+                  a(href=link.url target='_brank')= link.name
+                  br
 
-              .col-md-8
-                h3.card-title= contents["common"]["name"]
-                hr
-                p!= contents["common"]["majorin"]
-                dl.mb-0
-                  dt Interests:
-                  dd
-                    each interest in contents["common"]["interests"]
-                      span(class='px-1')= interest
-
-                  dt Links:
-                  dd
-                    each link in contents["common"]["links"]
-                      a(href=link.url target='_brank')= link.name
-                      br
-
-                  dt Accounts:
-                  dd
-                    each account in contents["common"]["accounts"]
-                      span
-                        a(href=account.url target='_brank')
-                          i(class="fa fa-fw fa-lg fa-" + account.name)
+              dt Accounts:
+              dd
+                each account in contents["common"]["accounts"]
+                  span.mr-2
+                    a(href=account.url target='_brank')
+                      i(class="fa fa-fw fa-lg fa-" + account.name)
 
   section.section.py-5
     .container
