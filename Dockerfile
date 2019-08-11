@@ -1,8 +1,10 @@
 FROM node:11.11.0
 
-COPY . /
+WORKDIR /usr/src/app
 
-RUN npm i
+COPY . .
+
+RUN npm install
 
 RUN npm run build
 
