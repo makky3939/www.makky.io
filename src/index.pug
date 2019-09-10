@@ -42,7 +42,7 @@ block content
       .row.justify-content-center
         .col-sm-10
           each ab in contents["about"]
-            h2= ab["title"]
+            h2.pt-4.pb-2= ab["title"]
             ul
               each item in ab["items"]
                 li= item
