@@ -5,8 +5,6 @@ const glob = require('glob')
 const pug = {
   entry: {
     index: `${__dirname}/src/index.pug`,
-    portfolio: `${__dirname}/src/portfolio.pug`,
-    photo: `${__dirname}/src/photo.pug`
   },
   output: {
     path: `${__dirname}/dist/`,
@@ -60,17 +58,16 @@ const image = {
   entry: {
     jpg: glob.sync(`${__dirname}/src/image/**/*.jpg`),
     png: glob.sync(`${__dirname}/src/image/**/*.png`),
-    ico: glob.sync(`${__dirname}/src/image/**/*.ico`),
-    json: glob.sync(`${__dirname}/src/image/**/*.json`)
+    ico: glob.sync(`${__dirname}/src/image/**/*.ico`)
   },
   output: {
     path: `${__dirname}/dist/image/`,
     filename: "[name]"
   },
   module: {
-    loaders: [
+    rules: [
       {
-        test: /\.(jpg|png|ico|json)$/,
+        test: /\.(jpg|png|ico)$/,
         loaders: 'file-loader?name=[path][name].[ext]'
       }
     ]
