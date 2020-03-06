@@ -1,8 +1,0 @@
-version: '3'
-
-services:
-  web:
-    build: ./
-    command: ['npm', 'run', 'server']
-    ports:
-      - "3939:8080"
