@@ -1,19 +1,15 @@
 {
   "name": "www.makky.io",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/makky3939/www.makky.io.git"
-  },
-  "author": "makky3939",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/makky3939/www.makky.io/issues"
-  },
-  "homepage": "https://github.com/makky3939/www.makky.io#readme"
+  "dependencies": {
+    "next": "9.2.2",
+    "react": "16.13.0",
+    "react-dom": "16.13.0"
+  }
 }
