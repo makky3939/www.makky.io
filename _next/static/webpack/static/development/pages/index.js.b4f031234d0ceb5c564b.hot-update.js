@@ -185,7 +185,8 @@ var Index = function Index() {
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-    md: "6",
+    lg: "6",
+    md: "10",
     className: "my-5 py-5",
     __source: {
       fileName: _jsxFileName,
@@ -344,8 +345,8 @@ var Index = function Index() {
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-    md: "8",
-    sm: "12",
+    lg: "8",
+    md: "10",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 180
@@ -389,7 +390,8 @@ var Index = function Index() {
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-    md: "8",
+    lg: "8",
+    md: "10",
     className: "my-5 py-5",
     __source: {
       fileName: _jsxFileName,
@@ -434,7 +436,8 @@ var Index = function Index() {
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-    md: "8",
+    lg: "8",
+    md: "10",
     className: "mt-5 pt-5",
     __source: {
       fileName: _jsxFileName,
@@ -471,7 +474,8 @@ var Index = function Index() {
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-    md: "8",
+    lg: "8",
+    md: "10",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 224
@@ -507,7 +511,8 @@ var Index = function Index() {
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-    md: "8",
+    lg: "8",
+    md: "10",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 237
@@ -543,7 +548,8 @@ var Index = function Index() {
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-    md: "8",
+    lg: "8",
+    md: "10",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 250
@@ -579,7 +585,8 @@ var Index = function Index() {
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-    md: "8",
+    lg: "8",
+    md: "10",
     className: "mb-5 pb-5",
     __source: {
       fileName: _jsxFileName,
@@ -628,7 +635,8 @@ var Index = function Index() {
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-    md: "8",
+    lg: "8",
+    md: "10",
     className: "my-5 py-5",
     __source: {
       fileName: _jsxFileName,
@@ -700,4 +708,4 @@ var Index = function Index() {
 /***/ })
 
 })
-//# sourceMappingURL=index.js.f8c302be3ec80281150c.hot-update.js.map
+//# sourceMappingURL=index.js.b4f031234d0ceb5c564b.hot-update.js.map

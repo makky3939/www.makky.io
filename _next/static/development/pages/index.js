@@ -20122,8 +20122,8 @@ var Index = function Index() {
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-    md: "6",
-    sm: "9",
+    lg: "6",
+    md: "10",
     className: "my-5 py-5",
     __source: {
       fileName: _jsxFileName,
@@ -20282,8 +20282,8 @@ var Index = function Index() {
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-    md: "8",
-    sm: "12",
+    lg: "8",
+    md: "10",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 180
@@ -20327,7 +20327,8 @@ var Index = function Index() {
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-    md: "8",
+    lg: "8",
+    md: "10",
     className: "my-5 py-5",
     __source: {
       fileName: _jsxFileName,
@@ -20372,7 +20373,8 @@ var Index = function Index() {
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-    md: "8",
+    lg: "8",
+    md: "10",
     className: "mt-5 pt-5",
     __source: {
       fileName: _jsxFileName,
@@ -20409,7 +20411,8 @@ var Index = function Index() {
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-    md: "8",
+    lg: "8",
+    md: "10",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 224
@@ -20445,7 +20448,8 @@ var Index = function Index() {
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-    md: "8",
+    lg: "8",
+    md: "10",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 237
@@ -20481,7 +20485,8 @@ var Index = function Index() {
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-    md: "8",
+    lg: "8",
+    md: "10",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 250
@@ -20517,7 +20522,8 @@ var Index = function Index() {
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-    md: "8",
+    lg: "8",
+    md: "10",
     className: "mb-5 pb-5",
     __source: {
       fileName: _jsxFileName,
@@ -20566,7 +20572,8 @@ var Index = function Index() {
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-    md: "8",
+    lg: "8",
+    md: "10",
     className: "my-5 py-5",
     __source: {
       fileName: _jsxFileName,
@@ -20664,7 +20671,7 @@ var logPageView = function logPageView() {
 
 /***/ }),
 
-/***/ 3:
+/***/ 2:
 /*!**************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fmakky%2Fghq%2Fgithub.com%2Fmakky3939%2Fwww.makky.io%2Fpages%2Findex.js ***!
   \**************************************************************************************************************************************************/
@@ -20687,5 +20694,5 @@ module.exports = dll_82519ec661270f7f484f;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
