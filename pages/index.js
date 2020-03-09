@@ -155,15 +155,15 @@ const Index = () => (
                     </dd>
                     <dt>Links:</dt>
                     <dd>
-                      <a>CV</a>
+                      <a href="/cv_masaki_kobayashi_20200309.pdf" target="_blank">CV</a>
                       {', '}
-                      <a>blog.makky.io</a>
+                      <a href="https://blog.makky.io/" target="_blank">blog.makky.io</a>
                       {', '}
-                      <a>GitHub</a>
+                      <a href="https://github.com/makky3939" target="_blank">GitHub</a>
                       {', '}
-                      <a>SpeakerDeck</a>
+                      <a href="https://speakerdeck.com/makky" target="_blank">SpeakerDeck</a>
                       {', '}
-                      <a>SlideShare</a>
+                      <a href="https://www.slideshare.net/masakikobayashi1485" target="_blank">SlideShare</a>
                     </dd>
                   </dl>
                 </CardBody>
