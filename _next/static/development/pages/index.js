@@ -20221,30 +20221,40 @@ var Index = function Index() {
     },
     __self: this
   }, __jsx("a", {
+    href: "/cv_masaki_kobayashi_20200309.pdf",
+    target: "_blank",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 158
     },
     __self: this
   }, "CV"), ', ', __jsx("a", {
+    href: "https://blog.makky.io/",
+    target: "_blank",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 160
     },
     __self: this
   }, "blog.makky.io"), ', ', __jsx("a", {
+    href: "https://github.com/makky3939",
+    target: "_blank",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 162
     },
     __self: this
   }, "GitHub"), ', ', __jsx("a", {
+    href: "https://speakerdeck.com/makky",
+    target: "_blank",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 164
     },
     __self: this
   }, "SpeakerDeck"), ', ', __jsx("a", {
+    href: "https://www.slideshare.net/masakikobayashi1485",
+    target: "_blank",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 166
@@ -20639,11 +20649,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_ga__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-ga */ "./node_modules/react-ga/dist/esm/index.js");
 
 var initGA = function initGA() {
-  console.log('GA init');
+  // console.log('GA init')
   react_ga__WEBPACK_IMPORTED_MODULE_0__["default"].initialize('UA-47562530-1');
 };
 var logPageView = function logPageView() {
-  console.log("Logging pageview for ".concat(window.location.pathname));
+  // console.log(`Logging pageview for ${window.location.pathname}`)
   react_ga__WEBPACK_IMPORTED_MODULE_0__["default"].set({
     page: window.location.pathname
   });
@@ -20652,7 +20662,7 @@ var logPageView = function logPageView() {
 
 /***/ }),
 
-/***/ 3:
+/***/ 2:
 /*!**************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fmakky%2Fghq%2Fgithub.com%2Fmakky3939%2Fwww.makky.io%2Fpages%2Findex.js ***!
   \**************************************************************************************************************************************************/
@@ -20675,5 +20685,5 @@ module.exports = dll_82519ec661270f7f484f;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
