@@ -20123,6 +20123,7 @@ var Index = function Index() {
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
     md: "6",
+    sm: "9",
     className: "my-5 py-5",
     __source: {
       fileName: _jsxFileName,
@@ -20282,6 +20283,7 @@ var Index = function Index() {
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
     md: "8",
+    sm: "12",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 180
@@ -20662,7 +20664,7 @@ var logPageView = function logPageView() {
 
 /***/ }),
 
-/***/ 2:
+/***/ 3:
 /*!**************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fmakky%2Fghq%2Fgithub.com%2Fmakky3939%2Fwww.makky.io%2Fpages%2Findex.js ***!
   \**************************************************************************************************************************************************/
@@ -20685,5 +20687,5 @@ module.exports = dll_82519ec661270f7f484f;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[3,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
