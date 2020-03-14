@@ -1,3 +1,5 @@
+import fetch from 'isomorphic-unfetch'
+import parser from 'fast-xml-parser'
 import { Container, Row, Col, Card, CardBody, CardTitle, CardText, Navbar, NavbarBrand } from 'reactstrap'
 import Layout from '../components/layout'
 
@@ -83,6 +85,9 @@ const workExperience = [
 
 const awards = [
   {
+    "title": "第12回データ工学と情報マネジメントに関するフォーラム (DEIM2020), オンラインプレゼンテーション賞, 2020-03-03"
+  },
+  {
     "title": "WebDB Forum 2019, 口頭発表 企業賞 (株式会社LIFULL賞, 株式会社FRONTEO賞), 2019-09-09"
   },
   {
@@ -114,7 +119,7 @@ const awards = [
   },
 ]
 
-const Index = () => (
+const Index = ({ recentBlogPosts }) => (
   <Layout>
     <article>
       <Navbar expand="md" fixed="top" light>
@@ -130,7 +135,7 @@ const Index = () => (
       <div className="bg-jumbotron">
         <Container>
           <Row className="justify-content-center">
-            <Col md="6" className="my-5 py-5">
+            <Col lg="6" md="10" className="my-5 py-5">
               <Card className="my-5">
                 <CardBody>
                   <CardTitle>
@@ -162,8 +167,10 @@ const Index = () => (
                       <a href="https://github.com/makky3939" target="_blank">GitHub</a>
                       {', '}
                       <a href="https://speakerdeck.com/makky" target="_blank">SpeakerDeck</a>
+                      <br />
+                      <a href="https://www.amazon.jp/hz/wishlist/ls/FOZWIXJAQW3C?ref_=wl_share" target="_blank">Wishlist</a>
                       {', '}
-                      <a href="https://www.slideshare.net/masakikobayashi1485" target="_blank">SlideShare</a>
+                      <a href="https://www.slideshare.net/masakikobayashi1485" target="_blank">SlideShare (inactive)</a>
                     </dd>
                   </dl>
                 </CardBody>
@@ -177,8 +184,8 @@ const Index = () => (
       <section>
         <Container className="my-5 py-5">
           <Row className="justify-content-center">
-            <Col md="8">
-              <h3>Hello,</h3>
+            <Col lg="8" md="10">
+            <h3 className="pb-3">Hello,</h3>
               <p>
                 I am a 1st-year doctoral student at the Graduate School of Library, Information and Media Studies, University of Tsukuba.
                 My current research interest is Human-Machine collaboration in Crowdsourcing for efficient microtask processing.
@@ -195,11 +202,20 @@ const Index = () => (
       <section>
         <Container>
           <Row className="justify-content-center">
-            <Col md="8"  className="my-5 py-5">
-              <h3>Recent Blog Posts</h3>
+            <Col lg="8" md="10" className="my-5 py-5">
+              <h3 className="pb-3">Recent Blog Posts</h3>
               <ul>
-                <li>TBD</li>
+                {
+                  recentBlogPosts.map((bp, index) => {
+                    return (
+                      <li key={index}>
+                        <a href={bp["link"]} target="_blank">{bp["title"]}</a>
+                      </li>
+                    )
+                  })
+                }
               </ul>
+              <small>View all blog posts on <a href="https://blog.makky.io/" target="_blank">blog.makky.io</a>.</small>
             </Col>
           </Row>
         </Container>
@@ -208,7 +224,7 @@ const Index = () => (
       <section>
         <Container>
           <Row className="justify-content-center pb-4">
-            <Col md="8" className="mt-5 pt-5">
+            <Col lg="8" md="10" className="mt-5 pt-5">
               <h3 className="pb-3">Publications</h3>
               <ul>
                 {
@@ -221,7 +237,7 @@ const Index = () => (
           </Row>
 
           <Row className="justify-content-center pb-4">
-            <Col md="8">
+            <Col lg="8" md="10">
               <h3 className="pb-3">Work Experience</h3>
               <ul>
                 {
@@ -234,7 +250,7 @@ const Index = () => (
           </Row>
 
           <Row className="justify-content-center pb-4">
-            <Col md="8">
+            <Col lg="8" md="10">
               <h3 className="pb-3">Teaching Experience</h3>
               <ul>
                 {
@@ -247,7 +263,7 @@ const Index = () => (
           </Row>
 
           <Row className="justify-content-center pb-4">
-            <Col md="8">
+            <Col lg="8" md="10">
               <h3 className="pb-3">
                 Research Grants
               </h3>
@@ -262,7 +278,7 @@ const Index = () => (
           </Row>
 
           <Row className="justify-content-center pb-4">
-            <Col md="8" className="mb-5 pb-5">
+            <Col lg="8" md="10" className="mb-5 pb-5">
               <h3 className="pb-3">
                 Awards
               </h3>
@@ -283,7 +299,7 @@ const Index = () => (
       <section>
         <Container>
           <Row className="justify-content-center">
-            <Col md="8"  className="my-5 py-5">
+            <Col lg="8" md="10" className="my-5 py-5">
               <h3>Photographs</h3>
               <ul>
                 <li>TBD</li>
@@ -307,5 +323,16 @@ const Index = () => (
     </article>
   </Layout>
 )
+
+Index.getInitialProps = async ctx => {
+  const res = await fetch('https://blog.makky.io/feed.xml')
+  const text = await res.text()
+  const xml = parser.parse(text)
+
+  const posts = xml["rss"]["channel"]["item"]
+  const recentBlogPosts = posts.slice(0, 3)
+  console.log(recentBlogPosts)
+  return { recentBlogPosts }
+}
 
 export default Index
