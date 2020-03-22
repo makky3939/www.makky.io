@@ -301,9 +301,50 @@ const Index = ({ recentBlogPosts }) => (
           <Row className="justify-content-center">
             <Col lg="8" md="10" className="my-5 py-5">
               <h3>Photographs</h3>
-              <ul>
-                <li>TBD</li>
-              </ul>
+              <Row>
+                {
+                  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map((x, i) => {
+                    return (
+                      <Col key={i} lg="4" md="4" sm="6" className="my-3">
+                        <img className="rounded img-fluid" src={`/photographs/2016/${x}.jpg`} />
+                      </Col>
+                    )
+                  })
+                }
+                {/* {
+                  [1, 2, 3, 4, 5, 6, 7, 8, 9].map((x, i) => {
+                    return (
+                      <Col lg="4" md="4" className="my-3">
+                        <img width="100%" height="auto" className="rounded" src={`/photographs/2017/${x}.jpg`} />
+                      </Col>
+                    )
+                  })
+                } */}
+              </Row>
+            </Col>
+          </Row>
+        </Container>
+      </section>
+
+      <section>
+        <Container>
+          <Row className="justify-content-center">
+            <Col lg="8" md="10" className="my-5 py-5">
+              <h3>Past Projects</h3>
+              <Row>
+                <Col lg="6" md="6" sm="12" className="my-3">
+                  <img className="rounded img-fluid" src={`/portfolio/ldaboard_1.png`} />
+                </Col>
+                <Col lg="6" md="6" sm="12" className="my-3">
+                  <img className="rounded img-fluid" src={`/portfolio/chainerui_1.png`} />
+                </Col>
+                <Col lg="6" md="6" sm="12" className="my-3">
+                  <img className="rounded img-fluid" src={`/portfolio/escapegoat_1.png`} />
+                </Col>
+                <Col lg="6" md="6" sm="12" className="my-3">
+                  <img className="rounded img-fluid" src={`/portfolio/librarysearch_1.png`} />
+                </Col>
+              </Row>
             </Col>
           </Row>
         </Container>
