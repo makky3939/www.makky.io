@@ -23759,32 +23759,34 @@ var Index = function Index(_ref) {
         lineNumber: 308
       },
       __self: this
-    }, __jsx("img", {
-      className: "rounded img-fluid",
-      src: "/photographs/2016/".concat(x, ".jpg"),
+    }, __jsx("div", {
+      className: "rounded thumbnail-16x10",
+      style: {
+        "backgroundImage": "url(/photographs/2016/".concat(x, ".jpg)")
+      },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 309
+        lineNumber: 310
       },
       __self: this
     }));
   })))))), __jsx("section", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 329
+      lineNumber: 333
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Container"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 330
+      lineNumber: 334
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Row"], {
     className: "justify-content-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 331
+      lineNumber: 335
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
@@ -23793,19 +23795,19 @@ var Index = function Index(_ref) {
     className: "my-5 py-5",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 332
+      lineNumber: 336
     },
     __self: this
   }, __jsx("h3", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 333
+      lineNumber: 337
     },
     __self: this
   }, "Past Projects"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Row"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 334
+      lineNumber: 338
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
@@ -23815,51 +23817,37 @@ var Index = function Index(_ref) {
     className: "my-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 335
-    },
-    __self: this
-  }, __jsx("img", {
-    className: "rounded img-fluid",
-    src: "/portfolio/ldaboard_1.png",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 336
-    },
-    __self: this
-  })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
-    lg: "6",
-    md: "6",
-    sm: "12",
-    className: "my-3",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 338
-    },
-    __self: this
-  }, __jsx("img", {
-    className: "rounded img-fluid",
-    src: "/portfolio/chainerui_1.png",
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 339
     },
     __self: this
-  })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
-    lg: "6",
-    md: "6",
-    sm: "12",
-    className: "my-3",
+  }, __jsx("div", {
+    className: "rounded border thumbnail-16x10",
+    style: {
+      "backgroundImage": "url(/portfolio/ldaboard_1.png)"
+    },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 341
     },
     __self: this
-  }, __jsx("img", {
-    className: "rounded img-fluid",
-    src: "/portfolio/escapegoat_1.png",
+  })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
+    lg: "6",
+    md: "6",
+    sm: "12",
+    className: "my-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 342
+      lineNumber: 346
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "rounded border thumbnail-16x10",
+    style: {
+      "backgroundImage": "url(/portfolio/chainerui_1.png)"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 348
     },
     __self: this
   })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
@@ -23869,54 +23857,76 @@ var Index = function Index(_ref) {
     className: "my-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 344
+      lineNumber: 353
     },
     __self: this
-  }, __jsx("img", {
-    className: "rounded img-fluid",
-    src: "/portfolio/librarysearch_1.png",
+  }, __jsx("div", {
+    className: "rounded border thumbnail-16x10",
+    style: {
+      "backgroundImage": "url(/portfolio/escapegoat_1.png)"
+    },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 345
+      lineNumber: 355
+    },
+    __self: this
+  })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
+    lg: "6",
+    md: "6",
+    sm: "12",
+    className: "my-3",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 360
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "rounded border thumbnail-16x10",
+    style: {
+      "backgroundImage": "url(/portfolio/librarysearch_1.png)"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 362
     },
     __self: this
   }))))))), __jsx("div", {
     className: "bg-dark text-white py-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 353
+      lineNumber: 373
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Container"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 354
+      lineNumber: 374
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Row"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 355
+      lineNumber: 375
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
     md: "10",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 356
+      lineNumber: 376
     },
     __self: this
   }, __jsx("p", {
     className: "my-0",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 357
+      lineNumber: 377
     },
     __self: this
   }, __jsx("small", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 358
+      lineNumber: 378
     },
     __self: this
   }, "\xA9 makky.io All Rights Reserved."))))))));

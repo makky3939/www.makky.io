@@ -7164,5 +7164,17 @@ section:nth-child(2n) {
 .bg-jumbotron .card hr {
   border-color: #333; }
 
+.thumbnail-16x10 {
+  background-size: cover;
+  padding-top: 62.5%;
+  width: 100%;
+  background-position: center; }
+
+.thumbnail-1x1 {
+  background-size: cover;
+  padding-top: 100%;
+  width: 100%;
+  background-position: center; }
+
 
 /*# sourceMappingURL=styles.chunk.css.map*/
