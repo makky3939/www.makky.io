@@ -23036,6 +23036,226 @@ module.exports = g;
 
 /***/ }),
 
+/***/ "./pages/images/photographs/2016 sync recursive ^\\.\\/.*\\.jpg$":
+/*!**********************************************************!*\
+  !*** ./pages/images/photographs/2016 sync ^\.\/.*\.jpg$ ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var map = {
+	"./1.jpg": "./pages/images/photographs/2016/1.jpg",
+	"./10.jpg": "./pages/images/photographs/2016/10.jpg",
+	"./11.jpg": "./pages/images/photographs/2016/11.jpg",
+	"./12.jpg": "./pages/images/photographs/2016/12.jpg",
+	"./2.jpg": "./pages/images/photographs/2016/2.jpg",
+	"./3.jpg": "./pages/images/photographs/2016/3.jpg",
+	"./4.jpg": "./pages/images/photographs/2016/4.jpg",
+	"./5.jpg": "./pages/images/photographs/2016/5.jpg",
+	"./6.jpg": "./pages/images/photographs/2016/6.jpg",
+	"./7.jpg": "./pages/images/photographs/2016/7.jpg",
+	"./8.jpg": "./pages/images/photographs/2016/8.jpg",
+	"./9.jpg": "./pages/images/photographs/2016/9.jpg"
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	return __webpack_require__(id);
+}
+function webpackContextResolve(req) {
+	if(!__webpack_require__.o(map, req)) {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return map[req];
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = "./pages/images/photographs/2016 sync recursive ^\\.\\/.*\\.jpg$";
+
+/***/ }),
+
+/***/ "./pages/images/photographs/2016/1.jpg":
+/*!*********************************************!*\
+  !*** ./pages/images/photographs/2016/1.jpg ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/1-c51d4768f8a5510e153f3be6acba9fbe.jpg";
+
+/***/ }),
+
+/***/ "./pages/images/photographs/2016/10.jpg":
+/*!**********************************************!*\
+  !*** ./pages/images/photographs/2016/10.jpg ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/10-e58f23192501adf22708d5845748fab9.jpg";
+
+/***/ }),
+
+/***/ "./pages/images/photographs/2016/11.jpg":
+/*!**********************************************!*\
+  !*** ./pages/images/photographs/2016/11.jpg ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/11-86e1e0c14224e7c136ad2d198998fe1d.jpg";
+
+/***/ }),
+
+/***/ "./pages/images/photographs/2016/12.jpg":
+/*!**********************************************!*\
+  !*** ./pages/images/photographs/2016/12.jpg ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/12-bd164ebf7337e48dfb58e502c913bfa8.jpg";
+
+/***/ }),
+
+/***/ "./pages/images/photographs/2016/2.jpg":
+/*!*********************************************!*\
+  !*** ./pages/images/photographs/2016/2.jpg ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/2-129d3384f545e1f23165f45ec7ce4551.jpg";
+
+/***/ }),
+
+/***/ "./pages/images/photographs/2016/3.jpg":
+/*!*********************************************!*\
+  !*** ./pages/images/photographs/2016/3.jpg ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/3-512f653099a87c1fbf47a3dd01629425.jpg";
+
+/***/ }),
+
+/***/ "./pages/images/photographs/2016/4.jpg":
+/*!*********************************************!*\
+  !*** ./pages/images/photographs/2016/4.jpg ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/4-32ecc47149aca071d30a1ed30d6f96bf.jpg";
+
+/***/ }),
+
+/***/ "./pages/images/photographs/2016/5.jpg":
+/*!*********************************************!*\
+  !*** ./pages/images/photographs/2016/5.jpg ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/5-5adb2848982809f3c54aa24b463b1ea7.jpg";
+
+/***/ }),
+
+/***/ "./pages/images/photographs/2016/6.jpg":
+/*!*********************************************!*\
+  !*** ./pages/images/photographs/2016/6.jpg ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/6-a73dedce6781b5653a9df9b9699b10d6.jpg";
+
+/***/ }),
+
+/***/ "./pages/images/photographs/2016/7.jpg":
+/*!*********************************************!*\
+  !*** ./pages/images/photographs/2016/7.jpg ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/7-3dd944da9f5972b71f053b97fae0630e.jpg";
+
+/***/ }),
+
+/***/ "./pages/images/photographs/2016/8.jpg":
+/*!*********************************************!*\
+  !*** ./pages/images/photographs/2016/8.jpg ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/8-2d38c7070faafb8ac4ce684a80d4e8d8.jpg";
+
+/***/ }),
+
+/***/ "./pages/images/photographs/2016/9.jpg":
+/*!*********************************************!*\
+  !*** ./pages/images/photographs/2016/9.jpg ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/9-60210df259d18dfb83f0989428e23f9e.jpg";
+
+/***/ }),
+
+/***/ "./pages/images/portfolio/chainerui_1.png":
+/*!************************************************!*\
+  !*** ./pages/images/portfolio/chainerui_1.png ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/chainerui_1-4486e8ecbaa572017ed1fc59e158a533.png";
+
+/***/ }),
+
+/***/ "./pages/images/portfolio/escapegoat_1.png":
+/*!*************************************************!*\
+  !*** ./pages/images/portfolio/escapegoat_1.png ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/escapegoat_1-a8c45f0356995d7862cd48361e76a004.png";
+
+/***/ }),
+
+/***/ "./pages/images/portfolio/ldaboard_1.png":
+/*!***********************************************!*\
+  !*** ./pages/images/portfolio/ldaboard_1.png ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/ldaboard_1-18d451975035dd0bb8493956a70469f8.png";
+
+/***/ }),
+
+/***/ "./pages/images/portfolio/librarysearch_1.png":
+/*!****************************************************!*\
+  !*** ./pages/images/portfolio/librarysearch_1.png ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/librarysearch_1-ecba289d5be44c5d97c9973e2e9d9c72.png";
+
+/***/ }),
+
 /***/ "./pages/index.js":
 /*!************************!*\
   !*** ./pages/index.js ***!
@@ -23759,34 +23979,32 @@ var Index = function Index(_ref) {
         lineNumber: 308
       },
       __self: this
-    }, __jsx("div", {
-      className: "rounded thumbnail-16x10",
-      style: {
-        "backgroundImage": "url(/photographs/2016/".concat(x, ".jpg)")
-      },
+    }, __jsx("img", {
+      className: "rounded img-fluid",
+      src: __webpack_require__("./pages/images/photographs/2016 sync recursive ^\\.\\/.*\\.jpg$")("./".concat(x, ".jpg")),
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 310
+        lineNumber: 309
       },
       __self: this
     }));
   })))))), __jsx("section", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 333
+      lineNumber: 335
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Container"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 334
+      lineNumber: 336
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Row"], {
     className: "justify-content-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 335
+      lineNumber: 337
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
@@ -23795,19 +24013,19 @@ var Index = function Index(_ref) {
     className: "my-5 py-5",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 336
+      lineNumber: 338
     },
     __self: this
   }, __jsx("h3", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 337
+      lineNumber: 339
     },
     __self: this
   }, "Past Projects"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Row"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 338
+      lineNumber: 340
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
@@ -23817,17 +24035,15 @@ var Index = function Index(_ref) {
     className: "my-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 339
+      lineNumber: 341
     },
     __self: this
-  }, __jsx("div", {
-    className: "rounded border thumbnail-16x10",
-    style: {
-      "backgroundImage": "url(/portfolio/ldaboard_1.png)"
-    },
+  }, __jsx("img", {
+    className: "rounded img-fluid border",
+    src: __webpack_require__(/*! ./images/portfolio/ldaboard_1.png */ "./pages/images/portfolio/ldaboard_1.png"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 341
+      lineNumber: 342
     },
     __self: this
   })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
@@ -23835,41 +24051,37 @@ var Index = function Index(_ref) {
     md: "6",
     sm: "12",
     className: "my-3",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 346
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "rounded border thumbnail-16x10",
-    style: {
-      "backgroundImage": "url(/portfolio/chainerui_1.png)"
-    },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 348
     },
     __self: this
+  }, __jsx("img", {
+    className: "rounded img-fluid border",
+    src: __webpack_require__(/*! ./images/portfolio/chainerui_1.png */ "./pages/images/portfolio/chainerui_1.png"),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 349
+    },
+    __self: this
   })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
     lg: "6",
     md: "6",
     sm: "12",
     className: "my-3",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 353
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "rounded border thumbnail-16x10",
-    style: {
-      "backgroundImage": "url(/portfolio/escapegoat_1.png)"
-    },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 355
     },
     __self: this
+  }, __jsx("img", {
+    className: "rounded img-fluid border",
+    src: __webpack_require__(/*! ./images/portfolio/escapegoat_1.png */ "./pages/images/portfolio/escapegoat_1.png"),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 356
+    },
+    __self: this
   })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
     lg: "6",
     md: "6",
@@ -23877,56 +24089,54 @@ var Index = function Index(_ref) {
     className: "my-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 360
+      lineNumber: 362
     },
     __self: this
-  }, __jsx("div", {
-    className: "rounded border thumbnail-16x10",
-    style: {
-      "backgroundImage": "url(/portfolio/librarysearch_1.png)"
-    },
+  }, __jsx("img", {
+    className: "rounded img-fluid border",
+    src: __webpack_require__(/*! ./images/portfolio/librarysearch_1.png */ "./pages/images/portfolio/librarysearch_1.png"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 362
+      lineNumber: 363
     },
     __self: this
   }))))))), __jsx("div", {
     className: "bg-dark text-white py-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 373
+      lineNumber: 375
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Container"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 374
+      lineNumber: 376
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Row"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 375
+      lineNumber: 377
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
     md: "10",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 376
+      lineNumber: 378
     },
     __self: this
   }, __jsx("p", {
     className: "my-0",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 377
+      lineNumber: 379
     },
     __self: this
   }, __jsx("small", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 378
+      lineNumber: 380
     },
     __self: this
   }, "\xA9 makky.io All Rights Reserved."))))))));
@@ -23995,7 +24205,7 @@ var logPageView = function logPageView() {
 
 /***/ }),
 
-/***/ 2:
+/***/ 3:
 /*!**************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fmakky%2Fghq%2Fgithub.com%2Fmakky3939%2Fwww.makky.io%2Fpages%2Findex.js ***!
   \**************************************************************************************************************************************************/
@@ -24018,5 +24228,5 @@ module.exports = dll_82519ec661270f7f484f;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[3,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
