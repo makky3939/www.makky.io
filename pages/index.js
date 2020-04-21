@@ -187,7 +187,7 @@ const Index = ({ recentBlogPosts }) => (
             <Col lg="8" md="10">
             <h3 className="pb-3">Hello,</h3>
               <p>
-                I am a 1st-year doctoral student at the Graduate School of Library, Information and Media Studies, University of Tsukuba.
+                I am a doctoral student at the Graduate School of Library, Information and Media Studies, University of Tsukuba.
                 My current research interest is Human-Machine collaboration in Crowdsourcing for efficient microtask processing.
               </p>
               <p>
