@@ -291,6 +291,17 @@ const Index = ({ recentBlogPosts }) => (
               </ul>
             </Col>
           </Row>
+
+          <Row className="justify-content-center pb-4">
+            <Col lg="8" md="10" className="mb-5 pb-5">
+              <h3 className="pb-3">
+                Others
+              </h3>
+              <ul>
+                <li>IPA セキュリティキャンプ2013 全国大会 Webセキュリティクラス修了</li>
+              </ul>
+            </Col>
+          </Row>
         </Container>
       </section>
 
