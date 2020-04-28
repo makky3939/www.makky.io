@@ -278,7 +278,7 @@ const Index = ({ recentBlogPosts }) => (
           </Row>
 
           <Row className="justify-content-center pb-4">
-            <Col lg="8" md="10" className="mb-5 pb-5">
+            <Col lg="8" md="10">
               <h3 className="pb-3">
                 Awards
               </h3>
