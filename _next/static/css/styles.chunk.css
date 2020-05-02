@@ -7140,11 +7140,12 @@ a.text-dark:hover, a.text-dark:focus {
 
 body {
   color: #555;
-  font-size: 18px; }
+  font-size: 18px;
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif; }
 
 li {
-  line-height: 1.3em;
-  padding-bottom: 0.6em; }
+  line-height: 1.2em;
+  padding-bottom: 0.5em; }
 
 section:nth-child(2n) {
   background: #f7f7f7; }
