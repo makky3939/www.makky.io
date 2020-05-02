@@ -187,7 +187,7 @@ const Index = ({ recentBlogPosts }) => (
             <Col lg="8" md="10">
             <h3 className="pb-3">Hello,</h3>
               <p>
-                I am a 1st-year doctoral student at the Graduate School of Library, Information and Media Studies, University of Tsukuba.
+                I am a doctoral student at the Graduate School of Library, Information and Media Studies, University of Tsukuba.
                 My current research interest is Human-Machine collaboration in Crowdsourcing for efficient microtask processing.
               </p>
               <p>
@@ -278,7 +278,7 @@ const Index = ({ recentBlogPosts }) => (
           </Row>
 
           <Row className="justify-content-center pb-4">
-            <Col lg="8" md="10" className="mb-5 pb-5">
+            <Col lg="8" md="10">
               <h3 className="pb-3">
                 Awards
               </h3>
@@ -288,6 +288,17 @@ const Index = ({ recentBlogPosts }) => (
                     return (<li key={index}>{aw.title}</li>)
                   })
                 }
+              </ul>
+            </Col>
+          </Row>
+
+          <Row className="justify-content-center pb-4">
+            <Col lg="8" md="10" className="mb-5 pb-5">
+              <h3 className="pb-3">
+                Others
+              </h3>
+              <ul>
+                <li>IPA セキュリティキャンプ2013 全国大会 Webセキュリティクラス修了</li>
               </ul>
             </Col>
           </Row>
