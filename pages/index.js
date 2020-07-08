@@ -4,7 +4,7 @@ import { Container, Row, Col, Card, CardBody, CardTitle, CardText, Navbar, Navba
 import Layout from '../components/layout'
 
 const publications = [
-  { "title": "Masaki Kobayashi, Kei Wakabayashi, Atsuyuki Morishima. Quality-aware Dynamic Task Assignment in Human+AI Crowd. To appear in the poster track of TheWebConf 2020." },
+  { "title": "Masaki Kobayashi, Kei Wakabayashi, Atsuyuki Morishima. Quality-aware Dynamic Task Assignment in Human+AI Crowd. In Companion Proceedings of the Web Conference 2020 (WWW ’20)." },
   { "title": "小林正樹, 若林啓, 森嶋厚行. タスク結果品質を考慮した人間+AIクラウドへのマイクロタスク割り当て. 第12回データ工学と情報マネジメントに関するフォーラム (DEIM)，2020." },
   { "title": "山下裕, 小林正樹, 若林啓, 森嶋厚行. クラウドソーシングにおけるAIを利用したタスク削減手法. 第12回データ工学と情報マネジメントに関するフォーラム (DEIM)，2020." },
   { "title": "鵜尾厚佑, 小林正樹, 松原正樹, 馬場雪乃, 森嶋厚行. 階層型のラベル付けマイクロタスクにおける能動学習戦略の比較. 第12回データ工学と情報マネジメントに関するフォーラム (DEIM)，2020." },
@@ -24,11 +24,20 @@ const publications = [
 
 const researchGrants = [
   {
+    "text": "AIP Challenge Program, JST AIP Network Lab, Japan. 1,000,000 JPY, August 2020 - March 2021."
+  },
+  {
     "text": "AIP Challenge Program, JST AIP Network Lab, Japan. 1,000,000 JPY, August 2019 - March 2020."
   }
 ];
 
 const teachingExperience = [
+  {
+    "title": "Teaching Assistant, Information Media Laboratory, University of Tsukuba. April 2020 - July 2020."
+  },
+  {
+    "title": "Teaching Assistant, Introduction to Data Engineering, University of Tsukuba. April 2020 - July 2020."
+  },
   {
     "title": "Teaching Assistant, Database Technology, University of Tsukuba. October 2019 - December 2019."
   },
@@ -52,7 +61,7 @@ const workExperience = [
     "title": "Engineer (Part-time), Preferred Networks, Inc. October 2017 - Present."
   },
   {
-    "title": "Engineer (Part-time), Bit Journey, Inc. October 2017 - Present"
+    "title": "Engineer (Part-time), Bit Journey, Inc. October 2017 - May 2020"
   },
   {
     "title": "Intern, Arm Treasure Data inc. August 2018 - September 2018"
@@ -317,7 +326,13 @@ const Index = ({ recentBlogPosts }) => (
                   [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map((x, i) => {
                     return (
                       <Col key={i} lg="4" md="4" sm="6" className="my-3">
-                        <img className="rounded img-fluid" src={`/photographs/2016/${x}.jpg`} />
+                        <img className="rounded img-fluid" src={require(`./images/photographs/2016/${x}.jpg`)} />
+                        {/* <div
+                          className="rounded thumbnail-16x10"
+                          // style={{"backgroundImage": require(`./images/photographs/2016/${x}.jpg`)}}
+
+                          style={{"backgroundImage": `url(./images/photographs/2016/${x}.jpg))`}}
+                        /> */}
                       </Col>
                     )
                   })
@@ -344,22 +359,40 @@ const Index = ({ recentBlogPosts }) => (
               <h3>Past Projects</h3>
               <Row>
                 <Col lg="6" md="6" sm="12" className="my-3">
-                  <img className="rounded img-fluid" src={`/portfolio/ldaboard_1.png`} />
+                  <img className="rounded img-fluid border" src={require(`./images/portfolio/ldaboard_1.png`)} />
+                  {/* <div
+                    className="rounded border thumbnail-16x10"
+                    style={{"backgroundImage": `url(./images/portfolio/ldaboard_1.png)`}}
+                  /> */}
                 </Col>
                 <Col lg="6" md="6" sm="12" className="my-3">
-                  <img className="rounded img-fluid" src={`/portfolio/chainerui_1.png`} />
+                  <img className="rounded img-fluid border" src={require(`./images/portfolio/chainerui_1.png`)} />
+                  {/* <div
+                    className="rounded border thumbnail-16x10"
+                    style={{"backgroundImage": `url(./images/portfolio/chainerui_1.png)`}}
+                  /> */}
                 </Col>
                 <Col lg="6" md="6" sm="12" className="my-3">
-                  <img className="rounded img-fluid" src={`/portfolio/escapegoat_1.png`} />
+                  <img className="rounded img-fluid border" src={require(`./images/portfolio/escapegoat_1.png`)} />
+                  {/* <div
+                    className="rounded border thumbnail-16x10"
+                    style={{"backgroundImage": `url(./images/portfolio/escapegoat_1.png)`}}
+                  /> */}
                 </Col>
                 <Col lg="6" md="6" sm="12" className="my-3">
-                  <img className="rounded img-fluid" src={`/portfolio/librarysearch_1.png`} />
+                  <img className="rounded img-fluid border" src={require(`./images/portfolio/librarysearch_1.png`)} />
+                  {/* <div
+                    className="rounded border thumbnail-16x10"
+                    style={{"backgroundImage": `url(./images/portfolio/librarysearch_1.png)`}}
+                  /> */}
                 </Col>
               </Row>
             </Col>
           </Row>
         </Container>
       </section>
+
+
 
       <div className="bg-dark text-white py-3">
         <Container>
