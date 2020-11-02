@@ -4,7 +4,9 @@ import { Container, Row, Col, Card, CardBody, CardTitle, CardText, Navbar, Navba
 import Layout from '../components/layout'
 
 const publications = [
-  { "title": "Masaki Kobayashi, Kei Wakabayashi, Atsuyuki Morishima. Quality-aware Dynamic Task Assignment in Human+AI Crowd. In Companion Proceedings of the Web Conference 2020 (WWW ’20)." },
+  { "title": "Akiko Aizawa, Frederic Bergeron, Junjie Chen, Fei Cheng, Katsuhiko Hayashi, Kentaro Inui, Hiroyoshi Ito, Daisuke Kawahara, Masaru Kitsuregawa, Hirokazu Kiyomaru, Masaki Kobayashi, Takashi Kodama, Sadao Kurohashi, Qianying Liu, Masaki Matsubara, Yusuke Miyao, Atsuyuki Morishima, Yugo Murawaki, Kazumasa Omura, Haiyue Song, Eiichiro Sumita, Shinji Suzuki, Ribeka Tanaka, Yu Tanaka, Masashi Toyoda, Nobuhiro Ueda, Honai Ueoka, Masao Utiyama, Ying Zhong, NLP COVID-19 Workshop (Part 2) at the 2020 Conference on EMNLP. 2020.11." },
+  { "title": "Yu Yamashita, Masaki Kobayashi, Kei Wakabayashi and Atsuyuki Morishima. Dynamic Worker-Task Assignment for High-Quality Task Results with ML Workers, The eighth AAAI Conference on Human Computation and Crowdsourcing (HCOMP2020), Virtual conference, Oct 26–29 2020." },
+  { "title": "Masaki Kobayashi, Kei Wakabayashi, Atsuyuki Morishima. Quality-aware Dynamic Task Assignment in Human+AI Crowd. In Companion Proceedings of the Web Conference 2020 (WWW ’20, poster paper)." },
   { "title": "小林正樹, 若林啓, 森嶋厚行. タスク結果品質を考慮した人間+AIクラウドへのマイクロタスク割り当て. 第12回データ工学と情報マネジメントに関するフォーラム (DEIM)，2020." },
   { "title": "山下裕, 小林正樹, 若林啓, 森嶋厚行. クラウドソーシングにおけるAIを利用したタスク削減手法. 第12回データ工学と情報マネジメントに関するフォーラム (DEIM)，2020." },
   { "title": "鵜尾厚佑, 小林正樹, 松原正樹, 馬場雪乃, 森嶋厚行. 階層型のラベル付けマイクロタスクにおける能動学習戦略の比較. 第12回データ工学と情報マネジメントに関するフォーラム (DEIM)，2020." },
