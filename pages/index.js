@@ -357,36 +357,44 @@ const Index = ({ recentBlogPosts }) => (
       <section>
         <Container>
           <Row className="justify-content-center">
-            <Col lg="8" md="10" className="my-5 py-5">
+            <Col lg="10" md="12" className="my-5 py-5">
               <h3>Past Projects</h3>
               <Row>
-                <Col lg="6" md="6" sm="12" className="my-3">
+                <Col lg="4" md="6" sm="12" className="my-3">
                   <img className="rounded img-fluid border" src={require(`./images/portfolio/ldaboard_1.png`)} />
-                  {/* <div
-                    className="rounded border thumbnail-16x10"
-                    style={{"backgroundImage": `url(./images/portfolio/ldaboard_1.png)`}}
-                  /> */}
                 </Col>
-                <Col lg="6" md="6" sm="12" className="my-3">
+                <Col lg="4" md="6" sm="12" className="my-3">
                   <img className="rounded img-fluid border" src={require(`./images/portfolio/chainerui_1.png`)} />
-                  {/* <div
-                    className="rounded border thumbnail-16x10"
-                    style={{"backgroundImage": `url(./images/portfolio/chainerui_1.png)`}}
-                  /> */}
                 </Col>
-                <Col lg="6" md="6" sm="12" className="my-3">
+                <Col lg="4" md="6" sm="12" className="my-3">
                   <img className="rounded img-fluid border" src={require(`./images/portfolio/escapegoat_1.png`)} />
-                  {/* <div
-                    className="rounded border thumbnail-16x10"
-                    style={{"backgroundImage": `url(./images/portfolio/escapegoat_1.png)`}}
-                  /> */}
                 </Col>
-                <Col lg="6" md="6" sm="12" className="my-3">
+                <Col lg="4" md="6" sm="12" className="my-3">
+                  <img className="rounded img-fluid border" src={require(`./images/portfolio/emotional_palette.png`)} />
+                </Col>
+                <Col lg="4" md="6" sm="12" className="my-3">
+                  <img className="rounded img-fluid border" src={require(`./images/portfolio/media_art_hounted_house.png`)} />
+                </Col>
+                <Col lg="4" md="6" sm="12" className="my-3">
+                  <img className="rounded img-fluid border" src={require(`./images/portfolio/visubus.png`)} />
+                </Col>
+                <Col lg="4" md="6" sm="12" className="my-3">
+                  <img className="rounded img-fluid border" src={require(`./images/portfolio/beef_clicker.png`)} />
+                </Col>
+                <Col lg="4" md="6" sm="12" className="my-3">
+                  <img className="rounded img-fluid border" src={require(`./images/portfolio/housyasen.png`)} />
+                </Col>
+                <Col lg="4" md="6" sm="12" className="my-3">
+                  <img className="rounded img-fluid border" src={require(`./images/portfolio/zishin.png`)} />
+                </Col>
+                <Col lg="4" md="6" sm="12" className="my-3">
+                  <img className="rounded img-fluid border" src={require(`./images/portfolio/shinsai.png`)} />
+                </Col>
+                <Col lg="4" md="6" sm="12" className="my-3">
                   <img className="rounded img-fluid border" src={require(`./images/portfolio/librarysearch_1.png`)} />
-                  {/* <div
-                    className="rounded border thumbnail-16x10"
-                    style={{"backgroundImage": `url(./images/portfolio/librarysearch_1.png)`}}
-                  /> */}
+                </Col>
+                <Col lg="4" md="6" sm="12" className="my-3">
+                  <img className="rounded img-fluid border" src={require(`./images/portfolio/mito_th.png`)} />
                 </Col>
               </Row>
             </Col>
