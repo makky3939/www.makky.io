@@ -361,6 +361,9 @@ const Index = ({ recentBlogPosts }) => (
               <h3>Past Projects</h3>
               <Row>
                 <Col lg="4" md="6" sm="12" className="my-3">
+                  <img className="rounded img-fluid border" src={require(`./images/portfolio/mind_project.png`)} />
+                </Col>
+                <Col lg="4" md="6" sm="12" className="my-3">
                   <img className="rounded img-fluid border" src={require(`./images/portfolio/ldaboard_1.png`)} />
                 </Col>
                 <Col lg="4" md="6" sm="12" className="my-3">
@@ -371,6 +374,18 @@ const Index = ({ recentBlogPosts }) => (
                 </Col>
                 <Col lg="4" md="6" sm="12" className="my-3">
                   <img className="rounded img-fluid border" src={require(`./images/portfolio/emotional_palette.png`)} />
+                </Col>
+                <Col lg="4" md="6" sm="12" className="my-3">
+                  <img className="rounded img-fluid border" src={require(`./images/portfolio/kasuga14_freshman.png`)} />
+                </Col>
+                <Col lg="4" md="6" sm="12" className="my-3">
+                  <img className="rounded img-fluid border" src={require(`./images/portfolio/klis_setumeikai.png`)} />
+                </Col>
+                <Col lg="4" md="6" sm="12" className="my-3">
+                  <img className="rounded img-fluid border" src={require(`./images/portfolio/home_makky_io.png`)} />
+                </Col>
+                <Col lg="4" md="6" sm="12" className="my-3">
+                  <img className="rounded img-fluid border" src={require(`./images/portfolio/makky_io_2015.png`)} />
                 </Col>
                 <Col lg="4" md="6" sm="12" className="my-3">
                   <img className="rounded img-fluid border" src={require(`./images/portfolio/media_art_hounted_house.png`)} />
