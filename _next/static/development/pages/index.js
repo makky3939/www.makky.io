@@ -23256,6 +23256,17 @@ module.exports = "/_next/static/images/escapegoat_1-a8c45f0356995d7862cd48361e76
 
 /***/ }),
 
+/***/ "./pages/images/portfolio/home_makky_io.png":
+/*!**************************************************!*\
+  !*** ./pages/images/portfolio/home_makky_io.png ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/home_makky_io-83d4b7e3d24b69a67654c49e11a12006.png";
+
+/***/ }),
+
 /***/ "./pages/images/portfolio/housyasen.png":
 /*!**********************************************!*\
   !*** ./pages/images/portfolio/housyasen.png ***!
@@ -23264,6 +23275,28 @@ module.exports = "/_next/static/images/escapegoat_1-a8c45f0356995d7862cd48361e76
 /***/ (function(module, exports) {
 
 module.exports = "/_next/static/images/housyasen-e1f9b51fc8087fc2391b037bea17b3e7.png";
+
+/***/ }),
+
+/***/ "./pages/images/portfolio/kasuga14_freshman.png":
+/*!******************************************************!*\
+  !*** ./pages/images/portfolio/kasuga14_freshman.png ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/kasuga14_freshman-ed52e46b78450a8f6ee0fc879be0f9b6.png";
+
+/***/ }),
+
+/***/ "./pages/images/portfolio/klis_setumeikai.png":
+/*!****************************************************!*\
+  !*** ./pages/images/portfolio/klis_setumeikai.png ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/klis_setumeikai-fe0eb1f80eed3d4b81c7330b03e46f4d.png";
 
 /***/ }),
 
@@ -23289,6 +23322,17 @@ module.exports = "/_next/static/images/librarysearch_1-ecba289d5be44c5d97c9973e2
 
 /***/ }),
 
+/***/ "./pages/images/portfolio/makky_io_2015.png":
+/*!**************************************************!*\
+  !*** ./pages/images/portfolio/makky_io_2015.png ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/makky_io_2015-74bb2225325d9178e3ca6f4d2c8ce55f.png";
+
+/***/ }),
+
 /***/ "./pages/images/portfolio/media_art_hounted_house.png":
 /*!************************************************************!*\
   !*** ./pages/images/portfolio/media_art_hounted_house.png ***!
@@ -23297,6 +23341,17 @@ module.exports = "/_next/static/images/librarysearch_1-ecba289d5be44c5d97c9973e2
 /***/ (function(module, exports) {
 
 module.exports = "/_next/static/images/media_art_hounted_house-7805060ee091832c48b15a3a680b3f73.png";
+
+/***/ }),
+
+/***/ "./pages/images/portfolio/mind_project.png":
+/*!*************************************************!*\
+  !*** ./pages/images/portfolio/mind_project.png ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/mind_project-2f651249ccd21482f757845c469448d2.png";
 
 /***/ }),
 
@@ -24172,7 +24227,7 @@ var Index = function Index(_ref) {
     __self: this
   }, __jsx("img", {
     className: "rounded img-fluid border",
-    src: __webpack_require__(/*! ./images/portfolio/ldaboard_1.png */ "./pages/images/portfolio/ldaboard_1.png"),
+    src: __webpack_require__(/*! ./images/portfolio/mind_project.png */ "./pages/images/portfolio/mind_project.png"),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 364
@@ -24190,7 +24245,7 @@ var Index = function Index(_ref) {
     __self: this
   }, __jsx("img", {
     className: "rounded img-fluid border",
-    src: __webpack_require__(/*! ./images/portfolio/chainerui_1.png */ "./pages/images/portfolio/chainerui_1.png"),
+    src: __webpack_require__(/*! ./images/portfolio/ldaboard_1.png */ "./pages/images/portfolio/ldaboard_1.png"),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 367
@@ -24208,7 +24263,7 @@ var Index = function Index(_ref) {
     __self: this
   }, __jsx("img", {
     className: "rounded img-fluid border",
-    src: __webpack_require__(/*! ./images/portfolio/escapegoat_1.png */ "./pages/images/portfolio/escapegoat_1.png"),
+    src: __webpack_require__(/*! ./images/portfolio/chainerui_1.png */ "./pages/images/portfolio/chainerui_1.png"),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 370
@@ -24226,7 +24281,7 @@ var Index = function Index(_ref) {
     __self: this
   }, __jsx("img", {
     className: "rounded img-fluid border",
-    src: __webpack_require__(/*! ./images/portfolio/emotional_palette.png */ "./pages/images/portfolio/emotional_palette.png"),
+    src: __webpack_require__(/*! ./images/portfolio/escapegoat_1.png */ "./pages/images/portfolio/escapegoat_1.png"),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 373
@@ -24244,7 +24299,7 @@ var Index = function Index(_ref) {
     __self: this
   }, __jsx("img", {
     className: "rounded img-fluid border",
-    src: __webpack_require__(/*! ./images/portfolio/media_art_hounted_house.png */ "./pages/images/portfolio/media_art_hounted_house.png"),
+    src: __webpack_require__(/*! ./images/portfolio/emotional_palette.png */ "./pages/images/portfolio/emotional_palette.png"),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 376
@@ -24262,7 +24317,7 @@ var Index = function Index(_ref) {
     __self: this
   }, __jsx("img", {
     className: "rounded img-fluid border",
-    src: __webpack_require__(/*! ./images/portfolio/visubus.png */ "./pages/images/portfolio/visubus.png"),
+    src: __webpack_require__(/*! ./images/portfolio/kasuga14_freshman.png */ "./pages/images/portfolio/kasuga14_freshman.png"),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 379
@@ -24280,7 +24335,7 @@ var Index = function Index(_ref) {
     __self: this
   }, __jsx("img", {
     className: "rounded img-fluid border",
-    src: __webpack_require__(/*! ./images/portfolio/beef_clicker.png */ "./pages/images/portfolio/beef_clicker.png"),
+    src: __webpack_require__(/*! ./images/portfolio/klis_setumeikai.png */ "./pages/images/portfolio/klis_setumeikai.png"),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 382
@@ -24298,7 +24353,7 @@ var Index = function Index(_ref) {
     __self: this
   }, __jsx("img", {
     className: "rounded img-fluid border",
-    src: __webpack_require__(/*! ./images/portfolio/housyasen.png */ "./pages/images/portfolio/housyasen.png"),
+    src: __webpack_require__(/*! ./images/portfolio/home_makky_io.png */ "./pages/images/portfolio/home_makky_io.png"),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 385
@@ -24316,7 +24371,7 @@ var Index = function Index(_ref) {
     __self: this
   }, __jsx("img", {
     className: "rounded img-fluid border",
-    src: __webpack_require__(/*! ./images/portfolio/zishin.png */ "./pages/images/portfolio/zishin.png"),
+    src: __webpack_require__(/*! ./images/portfolio/makky_io_2015.png */ "./pages/images/portfolio/makky_io_2015.png"),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 388
@@ -24334,7 +24389,7 @@ var Index = function Index(_ref) {
     __self: this
   }, __jsx("img", {
     className: "rounded img-fluid border",
-    src: __webpack_require__(/*! ./images/portfolio/shinsai.png */ "./pages/images/portfolio/shinsai.png"),
+    src: __webpack_require__(/*! ./images/portfolio/media_art_hounted_house.png */ "./pages/images/portfolio/media_art_hounted_house.png"),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 391
@@ -24352,7 +24407,7 @@ var Index = function Index(_ref) {
     __self: this
   }, __jsx("img", {
     className: "rounded img-fluid border",
-    src: __webpack_require__(/*! ./images/portfolio/librarysearch_1.png */ "./pages/images/portfolio/librarysearch_1.png"),
+    src: __webpack_require__(/*! ./images/portfolio/visubus.png */ "./pages/images/portfolio/visubus.png"),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 394
@@ -24370,49 +24425,139 @@ var Index = function Index(_ref) {
     __self: this
   }, __jsx("img", {
     className: "rounded img-fluid border",
-    src: __webpack_require__(/*! ./images/portfolio/mito_th.png */ "./pages/images/portfolio/mito_th.png"),
+    src: __webpack_require__(/*! ./images/portfolio/beef_clicker.png */ "./pages/images/portfolio/beef_clicker.png"),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 397
+    },
+    __self: this
+  })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
+    lg: "4",
+    md: "6",
+    sm: "12",
+    className: "my-3",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 399
+    },
+    __self: this
+  }, __jsx("img", {
+    className: "rounded img-fluid border",
+    src: __webpack_require__(/*! ./images/portfolio/housyasen.png */ "./pages/images/portfolio/housyasen.png"),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 400
+    },
+    __self: this
+  })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
+    lg: "4",
+    md: "6",
+    sm: "12",
+    className: "my-3",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 402
+    },
+    __self: this
+  }, __jsx("img", {
+    className: "rounded img-fluid border",
+    src: __webpack_require__(/*! ./images/portfolio/zishin.png */ "./pages/images/portfolio/zishin.png"),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 403
+    },
+    __self: this
+  })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
+    lg: "4",
+    md: "6",
+    sm: "12",
+    className: "my-3",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 405
+    },
+    __self: this
+  }, __jsx("img", {
+    className: "rounded img-fluid border",
+    src: __webpack_require__(/*! ./images/portfolio/shinsai.png */ "./pages/images/portfolio/shinsai.png"),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 406
+    },
+    __self: this
+  })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
+    lg: "4",
+    md: "6",
+    sm: "12",
+    className: "my-3",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 408
+    },
+    __self: this
+  }, __jsx("img", {
+    className: "rounded img-fluid border",
+    src: __webpack_require__(/*! ./images/portfolio/librarysearch_1.png */ "./pages/images/portfolio/librarysearch_1.png"),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 409
+    },
+    __self: this
+  })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
+    lg: "4",
+    md: "6",
+    sm: "12",
+    className: "my-3",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 411
+    },
+    __self: this
+  }, __jsx("img", {
+    className: "rounded img-fluid border",
+    src: __webpack_require__(/*! ./images/portfolio/mito_th.png */ "./pages/images/portfolio/mito_th.png"),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 412
     },
     __self: this
   }))))))), __jsx("div", {
     className: "bg-dark text-white py-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 407
+      lineNumber: 422
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Container"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 408
+      lineNumber: 423
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Row"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 409
+      lineNumber: 424
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
     md: "10",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 410
+      lineNumber: 425
     },
     __self: this
   }, __jsx("p", {
     className: "my-0",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 411
+      lineNumber: 426
     },
     __self: this
   }, __jsx("small", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 412
+      lineNumber: 427
     },
     __self: this
   }, "\xA9 makky.io All Rights Reserved."))))))));
