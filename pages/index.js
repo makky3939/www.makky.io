@@ -4,6 +4,7 @@ import { Container, Row, Col, Card, CardBody, CardTitle, CardText, Navbar, Navba
 import Layout from '../components/layout'
 
 const publications = [
+  { "title": "Munenari Inoguchi, Keiko Tamura, Kousuke Uo, and Masaki Kobayashi. Validation of CyborgCrowd Implementation Possibility for Situation Awareness in Urgent Disaster Response -Case Study of International Disaster Response in 2019-. The 4th IEEE Workshop on Human-in-the-Loop Methods and Future of Work in BigData (IEEE HMData 2020)." },
   { "title": "Akiko Aizawa, Frederic Bergeron, Junjie Chen, Fei Cheng, Katsuhiko Hayashi, Kentaro Inui, Hiroyoshi Ito, Daisuke Kawahara, Masaru Kitsuregawa, Hirokazu Kiyomaru, Masaki Kobayashi, Takashi Kodama, Sadao Kurohashi, Qianying Liu, Masaki Matsubara, Yusuke Miyao, Atsuyuki Morishima, Yugo Murawaki, Kazumasa Omura, Haiyue Song, Eiichiro Sumita, Shinji Suzuki, Ribeka Tanaka, Yu Tanaka, Masashi Toyoda, Nobuhiro Ueda, Honai Ueoka, Masao Utiyama, Ying Zhong, NLP COVID-19 Workshop (Part 2) at the 2020 Conference on EMNLP. 2020.11." },
   { "title": "Yu Yamashita, Masaki Kobayashi, Kei Wakabayashi and Atsuyuki Morishima. Dynamic Worker-Task Assignment for High-Quality Task Results with ML Workers, The eighth AAAI Conference on Human Computation and Crowdsourcing (HCOMP2020), Virtual conference, Oct 26–29 2020." },
   { "title": "Masaki Kobayashi, Kei Wakabayashi, Atsuyuki Morishima. Quality-aware Dynamic Task Assignment in Human+AI Crowd. In Companion Proceedings of the Web Conference 2020 (WWW ’20, poster paper)." },
@@ -34,6 +35,9 @@ const researchGrants = [
 ];
 
 const teachingExperience = [
+  {
+    "title": "Teaching Assistant, Database Technology, University of Tsukuba. October 2020 - December 2020."
+  },
   {
     "title": "Teaching Assistant, Information Media Laboratory, University of Tsukuba. April 2020 - July 2020."
   },
@@ -309,6 +313,7 @@ const Index = ({ recentBlogPosts }) => (
                 Others
               </h3>
               <ul>
+                <li>The 40th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2017), Student volunteer staff</li>
                 <li>IPA セキュリティキャンプ2013 全国大会 Webセキュリティクラス修了</li>
               </ul>
             </Col>
