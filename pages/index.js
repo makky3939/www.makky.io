@@ -311,6 +311,17 @@ const Index = ({ recentBlogPosts }) => (
           <Row className="justify-content-center pb-4">
             <Col lg="8" md="10" className="mb-5 pb-5">
               <h3 className="pb-3">
+                Patents
+              </h3>
+              <ul>
+                <li>森嶋 厚行, 若林 啓, 小林 正樹. 割当装置及び割当方法. 特願2019-035829.</li>
+              </ul>
+            </Col>
+          </Row>
+
+          <Row className="justify-content-center pb-4">
+            <Col lg="8" md="10" className="mb-5 pb-5">
+              <h3 className="pb-3">
                 Others
               </h3>
               <ul>
