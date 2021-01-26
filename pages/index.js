@@ -4,6 +4,7 @@ import { Container, Row, Col, Card, CardBody, CardTitle, CardText, Navbar, Navba
 import Layout from '../components/layout'
 
 const publications = [
+  { "title": "Masaki Kobayashi, Hiromi Morita, Masaki Matsubara, Nobuyuki Shimizu, Atsuyuki Morishima. Empirical Study on Effects of Self-Correction in Crowdsourced Image Classification Tasks. Human Computation Journal (to appear)." },
   { "title": "Munenari Inoguchi, Keiko Tamura, Kousuke Uo, and Masaki Kobayashi. Validation of CyborgCrowd Implementation Possibility for Situation Awareness in Urgent Disaster Response -Case Study of International Disaster Response in 2019-. The 4th IEEE Workshop on Human-in-the-Loop Methods and Future of Work in BigData (IEEE HMData 2020)." },
   { "title": "Akiko Aizawa, Frederic Bergeron, Junjie Chen, Fei Cheng, Katsuhiko Hayashi, Kentaro Inui, Hiroyoshi Ito, Daisuke Kawahara, Masaru Kitsuregawa, Hirokazu Kiyomaru, Masaki Kobayashi, Takashi Kodama, Sadao Kurohashi, Qianying Liu, Masaki Matsubara, Yusuke Miyao, Atsuyuki Morishima, Yugo Murawaki, Kazumasa Omura, Haiyue Song, Eiichiro Sumita, Shinji Suzuki, Ribeka Tanaka, Yu Tanaka, Masashi Toyoda, Nobuhiro Ueda, Honai Ueoka, Masao Utiyama, Ying Zhong, NLP COVID-19 Workshop (Part 2) at the 2020 Conference on EMNLP. 2020.11." },
   { "title": "Yu Yamashita, Masaki Kobayashi, Kei Wakabayashi and Atsuyuki Morishima. Dynamic Worker-Task Assignment for High-Quality Task Results with ML Workers, The eighth AAAI Conference on Human Computation and Crowdsourcing (HCOMP2020), Virtual conference, Oct 26–29 2020." },
