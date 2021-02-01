@@ -208,7 +208,7 @@ const Index = ({ recentBlogPosts }) => (
               </p>
               <p>
                 I am also interested in developing web applications and, I am fluent in JavaScript, TypeScript, Ruby, and Python.
-                I have experienced as a part-time engineer and an intern in more than ten companies.
+                I have experienced as a part-time engineer and an intern in more than ten companies and research institutions.
               </p>
             </Col>
           </Row>
