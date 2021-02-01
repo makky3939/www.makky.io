@@ -184,6 +184,8 @@ const Index = ({ recentBlogPosts }) => (
                       {', '}
                       <a href="https://speakerdeck.com/makky" target="_blank">SpeakerDeck</a>
                       <br />
+                      <a href="https://scholar.google.com/citations?user=6jE4oTYAAAAJ" target="_blank">Google Scholar</a>
+                      {', '}
                       <a href="https://www.amazon.jp/hz/wishlist/ls/FOZWIXJAQW3C?ref_=wl_share" target="_blank">Wishlist</a>
                       {', '}
                       <a href="https://www.slideshare.net/masakikobayashi1485" target="_blank">SlideShare (inactive)</a>
