@@ -24457,11 +24457,19 @@ var Index = function Index(_ref) {
     },
     __self: this
   }), __jsx("a", {
-    href: "https://www.amazon.jp/hz/wishlist/ls/FOZWIXJAQW3C?ref_=wl_share",
+    href: "https://scholar.google.com/citations?user=6jE4oTYAAAAJ",
     target: "_blank",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 187
+    },
+    __self: this
+  }, "Google Scholar"), ', ', __jsx("a", {
+    href: "https://www.amazon.jp/hz/wishlist/ls/FOZWIXJAQW3C?ref_=wl_share",
+    target: "_blank",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 189
     },
     __self: this
   }, "Wishlist"), ', ', __jsx("a", {
@@ -24469,73 +24477,73 @@ var Index = function Index(_ref) {
     target: "_blank",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 189
+      lineNumber: 191
     },
     __self: this
   }, "SlideShare (inactive)"))))))))), __jsx("section", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 200
+      lineNumber: 202
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Container"], {
     className: "my-5 py-5",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 201
-    },
-    __self: this
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Row"], {
-    className: "justify-content-center",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 202
-    },
-    __self: this
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
-    lg: "8",
-    md: "10",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 203
     },
     __self: this
-  }, __jsx("h3", {
-    className: "pb-3",
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Row"], {
+    className: "justify-content-center",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 204
     },
     __self: this
-  }, "Hello,"), __jsx("p", {
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
+    lg: "8",
+    md: "10",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 205
     },
     __self: this
+  }, __jsx("h3", {
+    className: "pb-3",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 206
+    },
+    __self: this
+  }, "Hello,"), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 207
+    },
+    __self: this
   }, "I am a doctoral student at the Graduate School of Library, Information and Media Studies, University of Tsukuba. My current research interest is Human-Machine collaboration in Crowdsourcing for efficient microtask processing."), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 209
+      lineNumber: 211
     },
     __self: this
-  }, "I am also interested in developing web applications and, I am fluent in JavaScript, TypeScript, Ruby, and Python. I have experienced as a part-time engineer and an intern in more than ten companies."))))), __jsx("section", {
+  }, "I am also interested in developing web applications and, I am fluent in JavaScript, TypeScript, Ruby, and Python. I have experienced as a part-time engineer and an intern in more than ten companies and research institutions."))))), __jsx("section", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 218
+      lineNumber: 220
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Container"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 219
+      lineNumber: 221
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Row"], {
     className: "justify-content-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 220
+      lineNumber: 222
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
@@ -24544,20 +24552,20 @@ var Index = function Index(_ref) {
     className: "my-5 py-5",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 221
+      lineNumber: 223
     },
     __self: this
   }, __jsx("h3", {
     className: "pb-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 222
+      lineNumber: 224
     },
     __self: this
   }, "Recent Blog Posts"), __jsx("ul", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 223
+      lineNumber: 225
     },
     __self: this
   }, recentBlogPosts.map(function (bp, index) {
@@ -24565,7 +24573,7 @@ var Index = function Index(_ref) {
       key: index,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 227
+        lineNumber: 229
       },
       __self: this
     }, __jsx("a", {
@@ -24573,14 +24581,14 @@ var Index = function Index(_ref) {
       target: "_blank",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 228
+        lineNumber: 230
       },
       __self: this
     }, bp["title"]));
   })), __jsx("small", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 234
+      lineNumber: 236
     },
     __self: this
   }, "View all blog posts on ", __jsx("a", {
@@ -24588,48 +24596,48 @@ var Index = function Index(_ref) {
     target: "_blank",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 234
+      lineNumber: 236
     },
     __self: this
   }, "blog.makky.io"), "."))))), __jsx("section", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 240
+      lineNumber: 242
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Container"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 241
+      lineNumber: 243
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Row"], {
     className: "justify-content-center pb-4",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 242
+      lineNumber: 244
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
-    lg: "8",
-    md: "10",
+    lg: "10",
+    md: "12",
     className: "mt-5 pt-5",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 243
+      lineNumber: 245
     },
     __self: this
   }, __jsx("h3", {
     className: "pb-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 244
+      lineNumber: 246
     },
     __self: this
   }, "Publications"), __jsx("ul", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 245
+      lineNumber: 247
     },
     __self: this
   }, publications.map(function (pb, index) {
@@ -24637,7 +24645,7 @@ var Index = function Index(_ref) {
       key: index,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 248
+        lineNumber: 250
       },
       __self: this
     }, pb.title);
@@ -24645,28 +24653,28 @@ var Index = function Index(_ref) {
     className: "justify-content-center pb-4",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 255
+      lineNumber: 257
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
-    lg: "8",
-    md: "10",
+    lg: "10",
+    md: "12",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 256
+      lineNumber: 258
     },
     __self: this
   }, __jsx("h3", {
     className: "pb-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 257
+      lineNumber: 259
     },
     __self: this
   }, "Work Experience"), __jsx("ul", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 258
+      lineNumber: 260
     },
     __self: this
   }, workExperience.map(function (we, index) {
@@ -24674,7 +24682,7 @@ var Index = function Index(_ref) {
       key: index,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 261
+        lineNumber: 263
       },
       __self: this
     }, we.title);
@@ -24682,28 +24690,28 @@ var Index = function Index(_ref) {
     className: "justify-content-center pb-4",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 268
+      lineNumber: 270
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
-    lg: "8",
-    md: "10",
+    lg: "10",
+    md: "12",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 269
+      lineNumber: 271
     },
     __self: this
   }, __jsx("h3", {
     className: "pb-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 270
+      lineNumber: 272
     },
     __self: this
   }, "Teaching Experience"), __jsx("ul", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 271
+      lineNumber: 273
     },
     __self: this
   }, teachingExperience.map(function (te, index) {
@@ -24711,7 +24719,7 @@ var Index = function Index(_ref) {
       key: index,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 274
+        lineNumber: 276
       },
       __self: this
     }, te.title);
@@ -24719,28 +24727,28 @@ var Index = function Index(_ref) {
     className: "justify-content-center pb-4",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 281
+      lineNumber: 283
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
-    lg: "8",
-    md: "10",
+    lg: "10",
+    md: "12",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 282
+      lineNumber: 284
     },
     __self: this
   }, __jsx("h3", {
     className: "pb-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 283
+      lineNumber: 285
     },
     __self: this
   }, "Research Grants"), __jsx("ul", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 286
+      lineNumber: 288
     },
     __self: this
   }, researchGrants.map(function (rg, index) {
@@ -24748,7 +24756,7 @@ var Index = function Index(_ref) {
       key: index,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 289
+        lineNumber: 291
       },
       __self: this
     }, rg.text);
@@ -24756,28 +24764,28 @@ var Index = function Index(_ref) {
     className: "justify-content-center pb-4",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 296
+      lineNumber: 298
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
-    lg: "8",
-    md: "10",
+    lg: "10",
+    md: "12",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 297
+      lineNumber: 299
     },
     __self: this
   }, __jsx("h3", {
     className: "pb-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 298
+      lineNumber: 300
     },
     __self: this
   }, "Awards"), __jsx("ul", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 301
+      lineNumber: 303
     },
     __self: this
   }, awards.map(function (aw, index) {
@@ -24785,7 +24793,7 @@ var Index = function Index(_ref) {
       key: index,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 304
+        lineNumber: 306
       },
       __self: this
     }, aw.title);
@@ -24793,116 +24801,115 @@ var Index = function Index(_ref) {
     className: "justify-content-center pb-4",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 311
+      lineNumber: 313
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
-    lg: "8",
-    md: "10",
-    className: "mb-5 pb-5",
+    lg: "10",
+    md: "12",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 312
+      lineNumber: 314
     },
     __self: this
   }, __jsx("h3", {
     className: "pb-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 313
+      lineNumber: 315
     },
     __self: this
   }, "Patents"), __jsx("ul", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 316
+      lineNumber: 318
     },
     __self: this
   }, __jsx("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 317
+      lineNumber: 319
     },
     __self: this
   }, "\u68EE\u5D8B \u539A\u884C, \u82E5\u6797 \u5553, \u5C0F\u6797 \u6B63\u6A39. \u5272\u5F53\u88C5\u7F6E\u53CA\u3073\u5272\u5F53\u65B9\u6CD5. \u7279\u98582019-035829.")))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Row"], {
     className: "justify-content-center pb-4",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 322
+      lineNumber: 324
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
-    lg: "8",
-    md: "10",
+    lg: "10",
+    md: "12",
     className: "mb-5 pb-5",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 323
+      lineNumber: 325
     },
     __self: this
   }, __jsx("h3", {
     className: "pb-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 324
+      lineNumber: 326
     },
     __self: this
   }, "Others"), __jsx("ul", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 327
+      lineNumber: 329
     },
     __self: this
   }, __jsx("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 328
+      lineNumber: 330
     },
     __self: this
   }, "The 40th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2017), Student volunteer staff"), __jsx("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 329
+      lineNumber: 331
     },
     __self: this
   }, "IPA \u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u30AD\u30E3\u30F3\u30D72013 \u5168\u56FD\u5927\u4F1A Web\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u30AF\u30E9\u30B9\u4FEE\u4E86")))))), __jsx("section", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 338
+      lineNumber: 340
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Container"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 339
+      lineNumber: 341
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Row"], {
     className: "justify-content-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 340
+      lineNumber: 342
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
-    lg: "8",
-    md: "10",
+    lg: "10",
+    md: "12",
     className: "my-5 py-5",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 341
+      lineNumber: 343
     },
     __self: this
   }, __jsx("h3", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 342
+      lineNumber: 344
     },
     __self: this
   }, "Photographs"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Row"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 343
+      lineNumber: 345
     },
     __self: this
   }, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map(function (x, i) {
@@ -24914,7 +24921,7 @@ var Index = function Index(_ref) {
       className: "my-3",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 347
+        lineNumber: 349
       },
       __self: this
     }, __jsx("img", {
@@ -24922,27 +24929,27 @@ var Index = function Index(_ref) {
       src: __webpack_require__("./pages/images/photographs/2016 sync recursive ^\\.\\/.*\\.jpg$")("./".concat(x, ".jpg")),
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 348
+        lineNumber: 350
       },
       __self: this
     }));
   })))))), __jsx("section", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 374
+      lineNumber: 376
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Container"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 375
+      lineNumber: 377
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Row"], {
     className: "justify-content-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 376
+      lineNumber: 378
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
@@ -24951,19 +24958,19 @@ var Index = function Index(_ref) {
     className: "my-5 py-5",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 377
+      lineNumber: 379
     },
     __self: this
   }, __jsx("h3", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 378
+      lineNumber: 380
     },
     __self: this
   }, "Past Projects"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Row"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 379
+      lineNumber: 381
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
@@ -24973,7 +24980,7 @@ var Index = function Index(_ref) {
     className: "my-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 380
+      lineNumber: 382
     },
     __self: this
   }, __jsx("img", {
@@ -24981,7 +24988,7 @@ var Index = function Index(_ref) {
     src: __webpack_require__(/*! ./images/portfolio/mind_project.png */ "./pages/images/portfolio/mind_project.png"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 381
+      lineNumber: 383
     },
     __self: this
   })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
@@ -24991,7 +24998,7 @@ var Index = function Index(_ref) {
     className: "my-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 383
+      lineNumber: 385
     },
     __self: this
   }, __jsx("img", {
@@ -24999,7 +25006,7 @@ var Index = function Index(_ref) {
     src: __webpack_require__(/*! ./images/portfolio/ldaboard_1.png */ "./pages/images/portfolio/ldaboard_1.png"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 384
+      lineNumber: 386
     },
     __self: this
   })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
@@ -25009,7 +25016,7 @@ var Index = function Index(_ref) {
     className: "my-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 386
+      lineNumber: 388
     },
     __self: this
   }, __jsx("img", {
@@ -25017,7 +25024,7 @@ var Index = function Index(_ref) {
     src: __webpack_require__(/*! ./images/portfolio/chainerui_1.png */ "./pages/images/portfolio/chainerui_1.png"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 387
+      lineNumber: 389
     },
     __self: this
   })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
@@ -25027,7 +25034,7 @@ var Index = function Index(_ref) {
     className: "my-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 389
+      lineNumber: 391
     },
     __self: this
   }, __jsx("img", {
@@ -25035,7 +25042,7 @@ var Index = function Index(_ref) {
     src: __webpack_require__(/*! ./images/portfolio/escapegoat_1.png */ "./pages/images/portfolio/escapegoat_1.png"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 390
+      lineNumber: 392
     },
     __self: this
   })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
@@ -25045,7 +25052,7 @@ var Index = function Index(_ref) {
     className: "my-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 392
+      lineNumber: 394
     },
     __self: this
   }, __jsx("img", {
@@ -25053,7 +25060,7 @@ var Index = function Index(_ref) {
     src: __webpack_require__(/*! ./images/portfolio/emotional_palette.png */ "./pages/images/portfolio/emotional_palette.png"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 393
+      lineNumber: 395
     },
     __self: this
   })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
@@ -25063,7 +25070,7 @@ var Index = function Index(_ref) {
     className: "my-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 395
+      lineNumber: 397
     },
     __self: this
   }, __jsx("img", {
@@ -25071,7 +25078,7 @@ var Index = function Index(_ref) {
     src: __webpack_require__(/*! ./images/portfolio/kasuga14_freshman.png */ "./pages/images/portfolio/kasuga14_freshman.png"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 396
+      lineNumber: 398
     },
     __self: this
   })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
@@ -25081,7 +25088,7 @@ var Index = function Index(_ref) {
     className: "my-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 398
+      lineNumber: 400
     },
     __self: this
   }, __jsx("img", {
@@ -25089,7 +25096,7 @@ var Index = function Index(_ref) {
     src: __webpack_require__(/*! ./images/portfolio/klis_setumeikai.png */ "./pages/images/portfolio/klis_setumeikai.png"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 399
+      lineNumber: 401
     },
     __self: this
   })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
@@ -25099,7 +25106,7 @@ var Index = function Index(_ref) {
     className: "my-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 401
+      lineNumber: 403
     },
     __self: this
   }, __jsx("img", {
@@ -25107,7 +25114,7 @@ var Index = function Index(_ref) {
     src: __webpack_require__(/*! ./images/portfolio/home_makky_io.png */ "./pages/images/portfolio/home_makky_io.png"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 402
+      lineNumber: 404
     },
     __self: this
   })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
@@ -25117,7 +25124,7 @@ var Index = function Index(_ref) {
     className: "my-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 404
+      lineNumber: 406
     },
     __self: this
   }, __jsx("img", {
@@ -25125,7 +25132,7 @@ var Index = function Index(_ref) {
     src: __webpack_require__(/*! ./images/portfolio/makky_io_2015.png */ "./pages/images/portfolio/makky_io_2015.png"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 405
+      lineNumber: 407
     },
     __self: this
   })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
@@ -25135,7 +25142,7 @@ var Index = function Index(_ref) {
     className: "my-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 407
+      lineNumber: 409
     },
     __self: this
   }, __jsx("img", {
@@ -25143,7 +25150,7 @@ var Index = function Index(_ref) {
     src: __webpack_require__(/*! ./images/portfolio/media_art_hounted_house.png */ "./pages/images/portfolio/media_art_hounted_house.png"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 408
+      lineNumber: 410
     },
     __self: this
   })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
@@ -25153,7 +25160,7 @@ var Index = function Index(_ref) {
     className: "my-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 410
+      lineNumber: 412
     },
     __self: this
   }, __jsx("img", {
@@ -25161,7 +25168,7 @@ var Index = function Index(_ref) {
     src: __webpack_require__(/*! ./images/portfolio/visubus.png */ "./pages/images/portfolio/visubus.png"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 411
+      lineNumber: 413
     },
     __self: this
   })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
@@ -25171,7 +25178,7 @@ var Index = function Index(_ref) {
     className: "my-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 413
+      lineNumber: 415
     },
     __self: this
   }, __jsx("img", {
@@ -25179,7 +25186,7 @@ var Index = function Index(_ref) {
     src: __webpack_require__(/*! ./images/portfolio/beef_clicker.png */ "./pages/images/portfolio/beef_clicker.png"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 414
+      lineNumber: 416
     },
     __self: this
   })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
@@ -25189,7 +25196,7 @@ var Index = function Index(_ref) {
     className: "my-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 416
+      lineNumber: 418
     },
     __self: this
   }, __jsx("img", {
@@ -25197,7 +25204,7 @@ var Index = function Index(_ref) {
     src: __webpack_require__(/*! ./images/portfolio/housyasen.png */ "./pages/images/portfolio/housyasen.png"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 417
+      lineNumber: 419
     },
     __self: this
   })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
@@ -25207,7 +25214,7 @@ var Index = function Index(_ref) {
     className: "my-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 419
+      lineNumber: 421
     },
     __self: this
   }, __jsx("img", {
@@ -25215,7 +25222,7 @@ var Index = function Index(_ref) {
     src: __webpack_require__(/*! ./images/portfolio/zishin.png */ "./pages/images/portfolio/zishin.png"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 420
+      lineNumber: 422
     },
     __self: this
   })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
@@ -25225,7 +25232,7 @@ var Index = function Index(_ref) {
     className: "my-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 422
+      lineNumber: 424
     },
     __self: this
   }, __jsx("img", {
@@ -25233,7 +25240,7 @@ var Index = function Index(_ref) {
     src: __webpack_require__(/*! ./images/portfolio/shinsai.png */ "./pages/images/portfolio/shinsai.png"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 423
+      lineNumber: 425
     },
     __self: this
   })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
@@ -25243,7 +25250,7 @@ var Index = function Index(_ref) {
     className: "my-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 425
+      lineNumber: 427
     },
     __self: this
   }, __jsx("img", {
@@ -25251,7 +25258,7 @@ var Index = function Index(_ref) {
     src: __webpack_require__(/*! ./images/portfolio/librarysearch_1.png */ "./pages/images/portfolio/librarysearch_1.png"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 426
+      lineNumber: 428
     },
     __self: this
   })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
@@ -25261,7 +25268,7 @@ var Index = function Index(_ref) {
     className: "my-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 428
+      lineNumber: 430
     },
     __self: this
   }, __jsx("img", {
@@ -25269,46 +25276,46 @@ var Index = function Index(_ref) {
     src: __webpack_require__(/*! ./images/portfolio/mito_th.png */ "./pages/images/portfolio/mito_th.png"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 429
+      lineNumber: 431
     },
     __self: this
   }))))))), __jsx("div", {
     className: "bg-dark text-white py-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 439
+      lineNumber: 441
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Container"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 440
+      lineNumber: 442
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Row"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 441
+      lineNumber: 443
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
     md: "10",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 442
+      lineNumber: 444
     },
     __self: this
   }, __jsx("p", {
     className: "my-0",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 443
+      lineNumber: 445
     },
     __self: this
   }, __jsx("small", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 444
+      lineNumber: 446
     },
     __self: this
   }, "\xA9 makky.io All Rights Reserved."))))))));
