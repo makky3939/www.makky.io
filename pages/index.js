@@ -242,7 +242,7 @@ const Index = ({ recentBlogPosts }) => (
       <section>
         <Container>
           <Row className="justify-content-center pb-4">
-            <Col lg="8" md="10" className="mt-5 pt-5">
+            <Col lg="10" md="12" className="mt-5 pt-5">
               <h3 className="pb-3">Publications</h3>
               <ul>
                 {
@@ -255,7 +255,7 @@ const Index = ({ recentBlogPosts }) => (
           </Row>
 
           <Row className="justify-content-center pb-4">
-            <Col lg="8" md="10">
+            <Col lg="10" md="12">
               <h3 className="pb-3">Work Experience</h3>
               <ul>
                 {
@@ -268,7 +268,7 @@ const Index = ({ recentBlogPosts }) => (
           </Row>
 
           <Row className="justify-content-center pb-4">
-            <Col lg="8" md="10">
+            <Col lg="10" md="12">
               <h3 className="pb-3">Teaching Experience</h3>
               <ul>
                 {
@@ -281,7 +281,7 @@ const Index = ({ recentBlogPosts }) => (
           </Row>
 
           <Row className="justify-content-center pb-4">
-            <Col lg="8" md="10">
+            <Col lg="10" md="12">
               <h3 className="pb-3">
                 Research Grants
               </h3>
@@ -296,7 +296,7 @@ const Index = ({ recentBlogPosts }) => (
           </Row>
 
           <Row className="justify-content-center pb-4">
-            <Col lg="8" md="10">
+            <Col lg="10" md="12">
               <h3 className="pb-3">
                 Awards
               </h3>
@@ -311,7 +311,7 @@ const Index = ({ recentBlogPosts }) => (
           </Row>
 
           <Row className="justify-content-center pb-4">
-            <Col lg="8" md="10" className="mb-5 pb-5">
+            <Col lg="10" md="12">
               <h3 className="pb-3">
                 Patents
               </h3>
@@ -322,7 +322,7 @@ const Index = ({ recentBlogPosts }) => (
           </Row>
 
           <Row className="justify-content-center pb-4">
-            <Col lg="8" md="10" className="mb-5 pb-5">
+            <Col lg="10" md="12" className="mb-5 pb-5">
               <h3 className="pb-3">
                 Others
               </h3>
@@ -340,7 +340,7 @@ const Index = ({ recentBlogPosts }) => (
       <section>
         <Container>
           <Row className="justify-content-center">
-            <Col lg="8" md="10" className="my-5 py-5">
+            <Col lg="10" md="12" className="my-5 py-5">
               <h3>Photographs</h3>
               <Row>
                 {
