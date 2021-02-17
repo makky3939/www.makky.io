@@ -381,11 +381,20 @@ const Index = ({ recentBlogPosts }) => (
               <h3>Past Projects</h3>
               <Row>
                 <Col lg="4" md="6" sm="12" className="my-3">
+                  <img className="rounded img-fluid border" src={require(`./images/portfolio/mind_project_2.png`)} />
+                </Col>
+                <Col lg="4" md="6" sm="12" className="my-3">
                   <img className="rounded img-fluid border" src={require(`./images/portfolio/mind_project.png`)} />
                 </Col>
                 <Col lg="4" md="6" sm="12" className="my-3">
                   <img className="rounded img-fluid border" src={require(`./images/portfolio/ldaboard_1.png`)} />
                 </Col>
+                <Col lg="4" md="6" sm="12" className="my-3">
+                  <img className="rounded img-fluid border" src={require(`./images/portfolio/self_correction_2.png`)} />
+                </Col>
+                {/* <Col lg="4" md="6" sm="12" className="my-3">
+                  <img className="rounded img-fluid border" src={require(`./images/portfolio/self_correction_1.png`)} />
+                </Col> */}
                 <Col lg="4" md="6" sm="12" className="my-3">
                   <img className="rounded img-fluid border" src={require(`./images/portfolio/chainerui_1.png`)} />
                 </Col>
