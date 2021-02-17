@@ -327,6 +327,7 @@ const Index = ({ recentBlogPosts }) => (
                 Others
               </h3>
               <ul>
+                <li>The Thirty-Fifth AAAI Conference on Artificial Intelligence (AAAI 2021), Student volunteer staff</li>
                 <li>The 40th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2017), Student volunteer staff</li>
                 <li>IPA セキュリティキャンプ2013 全国大会 Webセキュリティクラス修了</li>
               </ul>
