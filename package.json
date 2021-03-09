@@ -10,13 +10,16 @@
     "deploy": "gh-pages -d out --dotfiles"
   },
   "dependencies": {
+    "@orcid/bibtex-parse-js": "0.0.25",
     "@zeit/next-sass": "^1.0.1",
     "bootstrap": "^4.5.3",
     "fast-xml-parser": "^3.17.5",
+    "install": "^0.13.0",
     "isomorphic-unfetch": "^3.1.0",
     "jquery": "^3.5.0",
     "next": "9.2.2",
     "node-sass": "^4.14.1",
+    "npm": "^7.6.0",
     "react": "16.13.0",
     "react-dom": "16.13.0",
     "react-ga": "^2.7.0",
@@ -32,5 +35,8 @@
     "next-optimized-images": "^2.6.2",
     "rimraf": "^3.0.2",
     "typescript": "^3.9.7"
+  },
+  "browser": {
+    "fs": false
   }
 }

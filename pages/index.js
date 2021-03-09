@@ -2,29 +2,77 @@ import fetch from 'isomorphic-unfetch'
 import parser from 'fast-xml-parser'
 import { Container, Row, Col, Card, CardBody, CardTitle, CardText, Navbar, NavbarBrand } from 'reactstrap'
 import Layout from '../components/layout'
+import bibtexParse from '@orcid/bibtex-parse-js'
+import fs from 'fs'
 
-const publications = [
-  { "title": "Masaki Kobayashi, Hiromi Morita, Masaki Matsubara, Nobuyuki Shimizu, Atsuyuki Morishima. Empirical Study on Effects of Self-Correction in Crowdsourced Image Classification Tasks. Human Computation Journal (to appear)." },
-  { "title": "Munenari Inoguchi, Keiko Tamura, Kousuke Uo, and Masaki Kobayashi. Validation of CyborgCrowd Implementation Possibility for Situation Awareness in Urgent Disaster Response -Case Study of International Disaster Response in 2019-. The 4th IEEE Workshop on Human-in-the-Loop Methods and Future of Work in BigData (IEEE HMData 2020)." },
-  { "title": "Akiko Aizawa, Frederic Bergeron, Junjie Chen, Fei Cheng, Katsuhiko Hayashi, Kentaro Inui, Hiroyoshi Ito, Daisuke Kawahara, Masaru Kitsuregawa, Hirokazu Kiyomaru, Masaki Kobayashi, Takashi Kodama, Sadao Kurohashi, Qianying Liu, Masaki Matsubara, Yusuke Miyao, Atsuyuki Morishima, Yugo Murawaki, Kazumasa Omura, Haiyue Song, Eiichiro Sumita, Shinji Suzuki, Ribeka Tanaka, Yu Tanaka, Masashi Toyoda, Nobuhiro Ueda, Honai Ueoka, Masao Utiyama, Ying Zhong, NLP COVID-19 Workshop (Part 2) at the 2020 Conference on EMNLP. 2020.11." },
-  { "title": "Yu Yamashita, Masaki Kobayashi, Kei Wakabayashi and Atsuyuki Morishima. Dynamic Worker-Task Assignment for High-Quality Task Results with ML Workers, The eighth AAAI Conference on Human Computation and Crowdsourcing (HCOMP2020), Virtual conference, Oct 26–29 2020." },
-  { "title": "Masaki Kobayashi, Kei Wakabayashi, Atsuyuki Morishima. Quality-aware Dynamic Task Assignment in Human+AI Crowd. In Companion Proceedings of the Web Conference 2020 (WWW ’20, poster paper)." },
-  { "title": "小林正樹, 若林啓, 森嶋厚行. タスク結果品質を考慮した人間+AIクラウドへのマイクロタスク割り当て. 第12回データ工学と情報マネジメントに関するフォーラム (DEIM)，2020." },
-  { "title": "山下裕, 小林正樹, 若林啓, 森嶋厚行. クラウドソーシングにおけるAIを利用したタスク削減手法. 第12回データ工学と情報マネジメントに関するフォーラム (DEIM)，2020." },
-  { "title": "鵜尾厚佑, 小林正樹, 松原正樹, 馬場雪乃, 森嶋厚行. 階層型のラベル付けマイクロタスクにおける能動学習戦略の比較. 第12回データ工学と情報マネジメントに関するフォーラム (DEIM)，2020." },
-  { "title": "Kousuke Uo, Masaki Kobayashi, Masaki Matsubara, Yukino Baba, and Atsuyuki Morishima. Active Learning Strategies for Hierarchical Labeling Microtasks. IEEE HMData 2019. 2019." },
-  { "title": "Masafumi Hayashi, Masaki Kobayashi, Masaki Matsubara, Toshiyuki Amagasa, and Atsuyuki Morishima. Crowdsourcing the Development of Selective AI for Human and Machine Data Processing: A Case Study. IEEE HMData 2019. 2019." },
-  { "title": "小林 正樹, 若林 啓, 森嶋 厚行. 人間+AIクラウドにおけるマイクロタスク処理の効率化. WebDB Forum 2019論文集. 2019, p. 5-8." },
-  { "title": "クラウドワーカの品質改善における参考回答提示の効果の分析. 小林 正樹，森田 ひろみ，松原 正樹，清水 伸幸，森嶋 厚行. 第11回データ工学と情報マネジメントに関するフォーラム (DEIM)，2019." },
-  { "title": "機械学習の分類予測に基づく参考回答提示によるクラウドワーカの学習効果. 松原 正樹, 小林 正樹, 森嶋 厚行. 第11回データ工学と情報マネジメントに関するフォーラム (DEIM)，2019." },
-  { "title": "Matsubara, M., Kobayashi, M. and Morishima, A.: A Learning Effect by Presenting Machine Prediction as a Reference Answer in Self-correction. The Second IEEE Workshop on Human-in-the-loop Methods and Human Machine Collaboration in BigData (IEEE HMData2018), pp. 3521－3527, Seattle, 2018.12" },
-  { "title": "Kobayashi, M., Morita, H., Matsubara, M., Shimizu, N. and Morishima, A.: An Empirical Study on Short- and Long-term Effects of Self-Correction in Crowdsourced Microtasks. Proc. of the sixth AAAI Conference on Human Computation and Crowdsourcing, pp.79－87, Zurich, 2018.7" },
-  { "title": "クラウドワーカの品質改善における他者回答提示の短期的・長期的効果. 小林 正樹，森田 ひろみ，松原 正樹，清水 伸幸，森嶋 厚行. 第10回データ工学と情報マネジメントに関するフォーラム (DEIM)，2018" },
-  { "title": "ワーカの成長を考慮した自己補正マイクロタスク割当て手法. 小林 正樹， 清水 伸幸， 森嶋 厚行. 科学技術振興機構 CREST 3プロジェクト合同シンポジウム，Jun. 2，2017 (ポスター発表)" },
-  { "title": "ワーカの成長を考慮した自己補正マイクロタスク割当て手法. 小林 正樹， 清水 伸幸， 森嶋 厚行. 第9回データ工学と情報マネジメントに関するフォーラム (DEIM)，2017" },
-  { "title": "購買履歴を用いたユーザ行動モデルの推定. 小林 正樹， 伏見 卓恭， 佐藤 哲司. 第8回データ工学と情報マネジメントに関するフォーラム (DEIM)，2016" },
-  { "title": "調理手順の頻出パターンに基づく入力支援手法の提案. 小林 正樹， 伏見 卓恭， 佐藤 哲司. データ工学研究会 (DE)，2015" },
-]
+
+const PublicationPages = ({ pages }) => {
+  if (pages === undefined) {
+    return (<span></span>)
+  }
+  if (pages.includes('pages')) {
+    return (
+      <span>{ pages }</span>
+    )
+  } else {
+    return (
+      <span>p. { pages }</span>
+    )
+  }
+}
+
+
+const PublicationOthers = ({ url }) => {
+  if (url) {
+    return (
+      <span>
+        [<a href={url} target="_blank">PDF</a>]
+      </span>
+    )
+  } else {
+    return (<span></span>)
+  }
+}
+
+
+const Publication = ({ bibitem }) => {
+  if (bibitem.entryType == 'article') {
+    return (
+      <div>
+        {bibitem.entryTags.author}
+        <span>. </span>
+        <b>{bibitem.entryTags.title}</b>
+        <span>. </span>
+        {`${bibitem.entryTags.journal} (${bibitem.entryTags.number}:${bibitem.entryTags.volume})`}
+        <span>. </span>
+        {bibitem.entryTags.year}
+        <span>, </span>
+        <PublicationPages pages={bibitem.entryTags.pages} />
+        <span>. </span>
+        <PublicationOthers url={bibitem.entryTags.url} />
+      </div>
+    )
+  } else if (bibitem.entryType == 'inproceedings') {
+    return (
+      <div>
+        {bibitem.entryTags.author}
+        <span>. </span>
+        <b>{bibitem.entryTags.title}</b>
+        <span>. </span>
+        {bibitem.entryTags.booktitle}
+        <span>. </span>
+        {bibitem.entryTags.location}
+        <span>, </span>
+        {bibitem.entryTags.year}
+        <span>, </span>
+        <PublicationPages pages={bibitem.entryTags.pages} />
+        <span>. </span>
+        <PublicationOthers url={bibitem.entryTags.url} />
+      </div>
+    )
+  }
+};
+
 
 const researchGrants = [
   {
@@ -101,6 +149,9 @@ const workExperience = [
 
 const awards = [
   {
+    "title": "第13回データ工学と情報マネジメントに関するフォーラム (DEIM2021), 学生プレゼンテーション賞, 2021-03-03"
+  },
+  {
     "title": "第12回データ工学と情報マネジメントに関するフォーラム (DEIM2020), オンラインプレゼンテーション賞, 2020-03-03"
   },
   {
@@ -135,7 +186,7 @@ const awards = [
   },
 ]
 
-const Index = ({ recentBlogPosts }) => (
+const Index = ({ recentBlogPosts, publicationList }) => (
   <Layout>
     <article>
       <Navbar expand="md" fixed="top" light>
@@ -246,8 +297,8 @@ const Index = ({ recentBlogPosts }) => (
               <h3 className="pb-3">Publications</h3>
               <ul>
                 {
-                  publications.map((pb, index) => {
-                    return <li key={index}>{pb.title}</li>
+                  publicationList.map((bibitem, index) => {
+                    return <li key={index}><Publication bibitem={bibitem} /></li>
                   })
                 }
               </ul>
@@ -464,14 +515,18 @@ const Index = ({ recentBlogPosts }) => (
 )
 
 Index.getInitialProps = async ctx => {
+  const bibtex_text = fs.readFileSync('./pages/bibliography.bib').toString()
+  const publicationList = bibtexParse.toJSON(bibtex_text)
+  // console.log(publicationList)
+
   const res = await fetch('https://blog.makky.io/feed.xml')
   const text = await res.text()
   const xml = parser.parse(text)
 
   const posts = xml["rss"]["channel"]["item"]
   const recentBlogPosts = posts.slice(0, 3)
-  console.log(recentBlogPosts)
-  return { recentBlogPosts }
+  // console.log(recentBlogPosts)
+  return { recentBlogPosts, publicationList }
 }
 
 export default Index
