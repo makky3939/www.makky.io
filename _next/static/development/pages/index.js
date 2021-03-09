@@ -24517,7 +24517,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/layout */ "./components/layout.js");
 /* harmony import */ var _orcid_bibtex_parse_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @orcid/bibtex-parse-js */ "./node_modules/@orcid/bibtex-parse-js/bibtexParse.js");
 /* harmony import */ var _orcid_bibtex_parse_js__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_orcid_bibtex_parse_js__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var fs__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! fs */ 3);
+/* harmony import */ var fs__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! fs */ 4);
 /* harmony import */ var fs__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(fs__WEBPACK_IMPORTED_MODULE_8__);
 
 
@@ -24530,23 +24530,6 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
 
 
 
-var publications = [{
-  "title": "小林 正樹, 若林 啓, 森嶋 厚行. 人間+AIクラウドにおけるマイクロタスク処理の効率化. WebDB Forum 2019論文集. 2019, p. 5-8."
-}, {
-  "title": "クラウドワーカの品質改善における参考回答提示の効果の分析. 小林 正樹，森田 ひろみ，松原 正樹，清水 伸幸，森嶋 厚行. 第11回データ工学と情報マネジメントに関するフォーラム (DEIM)，2019."
-}, {
-  "title": "機械学習の分類予測に基づく参考回答提示によるクラウドワーカの学習効果. 松原 正樹, 小林 正樹, 森嶋 厚行. 第11回データ工学と情報マネジメントに関するフォーラム (DEIM)，2019."
-}, {
-  "title": "クラウドワーカの品質改善における他者回答提示の短期的・長期的効果. 小林 正樹，森田 ひろみ，松原 正樹，清水 伸幸，森嶋 厚行. 第10回データ工学と情報マネジメントに関するフォーラム (DEIM)，2018"
-}, {
-  "title": "ワーカの成長を考慮した自己補正マイクロタスク割当て手法. 小林 正樹， 清水 伸幸， 森嶋 厚行. 科学技術振興機構 CREST 3プロジェクト合同シンポジウム，Jun. 2，2017 (ポスター発表)"
-}, {
-  "title": "ワーカの成長を考慮した自己補正マイクロタスク割当て手法. 小林 正樹， 清水 伸幸， 森嶋 厚行. 第9回データ工学と情報マネジメントに関するフォーラム (DEIM)，2017"
-}, {
-  "title": "購買履歴を用いたユーザ行動モデルの推定. 小林 正樹， 伏見 卓恭， 佐藤 哲司. 第8回データ工学と情報マネジメントに関するフォーラム (DEIM)，2016"
-}, {
-  "title": "調理手順の頻出パターンに基づく入力支援手法の提案. 小林 正樹， 伏見 卓恭， 佐藤 哲司. データ工学研究会 (DE)，2015"
-}];
 var researchGrants = [{
   "text": "AIP Challenge Program, JST AIP Network Lab, Japan. 1,000,000 JPY, August 2020 - March 2021."
 }, {
@@ -24625,13 +24608,13 @@ var Index = function Index(_ref) {
   return __jsx(_components_layout__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 133
+      lineNumber: 122
     },
     __self: this
   }, __jsx("article", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 134
+      lineNumber: 123
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Navbar"], {
@@ -24640,58 +24623,58 @@ var Index = function Index(_ref) {
     light: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 135
+      lineNumber: 124
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Container"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 136
+      lineNumber: 125
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["NavbarBrand"], {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 137
+      lineNumber: 126
     },
     __self: this
   }, __jsx("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 138
+      lineNumber: 127
     },
     __self: this
   }, "www."), __jsx("b", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 139
+      lineNumber: 128
     },
     __self: this
   }, "makky"), __jsx("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 140
+      lineNumber: 129
     },
     __self: this
   }, ".io")))), __jsx("div", {
     className: "bg-jumbotron",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 145
+      lineNumber: 134
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Container"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 146
+      lineNumber: 135
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Row"], {
     className: "justify-content-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 147
+      lineNumber: 136
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
@@ -24700,98 +24683,98 @@ var Index = function Index(_ref) {
     className: "my-5 py-5",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 148
+      lineNumber: 137
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Card"], {
     className: "my-5",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 149
+      lineNumber: 138
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["CardBody"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 150
+      lineNumber: 139
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["CardTitle"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 151
+      lineNumber: 140
     },
     __self: this
   }, __jsx("h4", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 152
+      lineNumber: 141
     },
     __self: this
   }, __jsx("b", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 153
+      lineNumber: 142
     },
     __self: this
   }, "Masaki Kobayashi"))), __jsx("hr", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 156
+      lineNumber: 145
     },
     __self: this
   }), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["CardText"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 157
+      lineNumber: 146
     },
     __self: this
   }, "Doctoral student at University of Tsukuba", __jsx("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 159
+      lineNumber: 148
     },
     __self: this
   }), "(Graduate School of Library, Information and Media Studies)"), __jsx("dl", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 162
+      lineNumber: 151
     },
     __self: this
   }, __jsx("dt", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 163
+      lineNumber: 152
     },
     __self: this
   }, "Research Topics:"), __jsx("dd", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 164
+      lineNumber: 153
     },
     __self: this
   }, "Human Computation, Crowdsourcing, Human-AI Collaboration"), __jsx("dt", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 167
+      lineNumber: 156
     },
     __self: this
   }, "Interests:"), __jsx("dd", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 168
+      lineNumber: 157
     },
     __self: this
   }, "Front-end Web, Site Reliability Engineering, Photography"), __jsx("dt", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 171
+      lineNumber: 160
     },
     __self: this
   }, "Links:"), __jsx("dd", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 172
+      lineNumber: 161
     },
     __self: this
   }, __jsx("a", {
@@ -24799,7 +24782,7 @@ var Index = function Index(_ref) {
     target: "_blank",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 173
+      lineNumber: 162
     },
     __self: this
   }, "CV"), ', ', __jsx("a", {
@@ -24807,7 +24790,7 @@ var Index = function Index(_ref) {
     target: "_blank",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 175
+      lineNumber: 164
     },
     __self: this
   }, "blog.makky.io"), ', ', __jsx("a", {
@@ -24815,7 +24798,7 @@ var Index = function Index(_ref) {
     target: "_blank",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 177
+      lineNumber: 166
     },
     __self: this
   }, "GitHub"), ', ', __jsx("a", {
@@ -24823,13 +24806,13 @@ var Index = function Index(_ref) {
     target: "_blank",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 179
+      lineNumber: 168
     },
     __self: this
   }, "SpeakerDeck"), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 180
+      lineNumber: 169
     },
     __self: this
   }), __jsx("a", {
@@ -24837,7 +24820,7 @@ var Index = function Index(_ref) {
     target: "_blank",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 181
+      lineNumber: 170
     },
     __self: this
   }, "Google Scholar"), ', ', __jsx("a", {
@@ -24845,7 +24828,7 @@ var Index = function Index(_ref) {
     target: "_blank",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 183
+      lineNumber: 172
     },
     __self: this
   }, "Wishlist"), ', ', __jsx("a", {
@@ -24853,27 +24836,27 @@ var Index = function Index(_ref) {
     target: "_blank",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 185
+      lineNumber: 174
     },
     __self: this
   }, "SlideShare (inactive)"))))))))), __jsx("section", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 196
+      lineNumber: 185
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Container"], {
     className: "my-5 py-5",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 197
+      lineNumber: 186
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Row"], {
     className: "justify-content-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 198
+      lineNumber: 187
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
@@ -24881,45 +24864,45 @@ var Index = function Index(_ref) {
     md: "10",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 199
+      lineNumber: 188
     },
     __self: this
   }, __jsx("h3", {
     className: "pb-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 200
+      lineNumber: 189
     },
     __self: this
   }, "Hello,"), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 201
+      lineNumber: 190
     },
     __self: this
   }, "I am a doctoral student at the Graduate School of Library, Information and Media Studies, University of Tsukuba. My current research interest is Human-Machine collaboration in Crowdsourcing for efficient microtask processing."), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 205
+      lineNumber: 194
     },
     __self: this
   }, "I am also interested in developing web applications and, I am fluent in JavaScript, TypeScript, Ruby, and Python. I have experienced as a part-time engineer and an intern in more than ten companies and research institutions."))))), __jsx("section", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 214
+      lineNumber: 203
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Container"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 215
+      lineNumber: 204
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Row"], {
     className: "justify-content-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 216
+      lineNumber: 205
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
@@ -24928,20 +24911,20 @@ var Index = function Index(_ref) {
     className: "my-5 py-5",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 217
+      lineNumber: 206
     },
     __self: this
   }, __jsx("h3", {
     className: "pb-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 218
+      lineNumber: 207
     },
     __self: this
   }, "Recent Blog Posts"), __jsx("ul", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 219
+      lineNumber: 208
     },
     __self: this
   }, recentBlogPosts.map(function (bp, index) {
@@ -24949,7 +24932,7 @@ var Index = function Index(_ref) {
       key: index,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 223
+        lineNumber: 212
       },
       __self: this
     }, __jsx("a", {
@@ -24957,14 +24940,14 @@ var Index = function Index(_ref) {
       target: "_blank",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 224
+        lineNumber: 213
       },
       __self: this
     }, bp["title"]));
   })), __jsx("small", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 230
+      lineNumber: 219
     },
     __self: this
   }, "View all blog posts on ", __jsx("a", {
@@ -24972,26 +24955,26 @@ var Index = function Index(_ref) {
     target: "_blank",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 230
+      lineNumber: 219
     },
     __self: this
   }, "blog.makky.io"), "."))))), __jsx("section", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 236
+      lineNumber: 225
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Container"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 237
+      lineNumber: 226
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Row"], {
     className: "justify-content-center pb-4",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 238
+      lineNumber: 227
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
@@ -25000,20 +24983,20 @@ var Index = function Index(_ref) {
     className: "mt-5 pt-5",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 239
+      lineNumber: 228
     },
     __self: this
   }, __jsx("h3", {
     className: "pb-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 240
+      lineNumber: 229
     },
     __self: this
   }, "Publications"), __jsx("ul", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 241
+      lineNumber: 230
     },
     __self: this
   }, publicationList.map(function (bibitem, index) {
@@ -25022,43 +25005,43 @@ var Index = function Index(_ref) {
         key: index,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 247
+          lineNumber: 236
         },
         __self: this
       }, bibitem.entryTags.author, __jsx("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 249
+          lineNumber: 238
         },
         __self: this
       }, ". "), __jsx("b", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 250
+          lineNumber: 239
         },
         __self: this
       }, bibitem.entryTags.title), __jsx("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 251
+          lineNumber: 240
         },
         __self: this
       }, ". "), "".concat(bibitem.entryTags.journal, " (").concat(bibitem.entryTags.number, ":").concat(bibitem.entryTags.volume, ")"), __jsx("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 253
+          lineNumber: 242
         },
         __self: this
       }, ". "), bibitem.entryTags.year, __jsx("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 255
+          lineNumber: 244
         },
         __self: this
       }, ", "), "p. ".concat(bibitem.entryTags.pages), __jsx("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 257
+          lineNumber: 246
         },
         __self: this
       }, ". "), "[", __jsx("a", {
@@ -25066,7 +25049,7 @@ var Index = function Index(_ref) {
         target: "_blank",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 258
+          lineNumber: 247
         },
         __self: this
       }, "PDF"), "]");
@@ -25075,49 +25058,49 @@ var Index = function Index(_ref) {
         key: index,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 263
+          lineNumber: 252
         },
         __self: this
       }, bibitem.entryTags.author, __jsx("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 265
+          lineNumber: 254
         },
         __self: this
       }, ". "), __jsx("b", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 266
+          lineNumber: 255
         },
         __self: this
       }, bibitem.entryTags.title), __jsx("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 267
+          lineNumber: 256
         },
         __self: this
       }, ". "), bibitem.entryTags.booktitle, __jsx("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 269
+          lineNumber: 258
         },
         __self: this
       }, ". "), bibitem.entryTags.location, __jsx("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 271
+          lineNumber: 260
         },
         __self: this
       }, ", "), bibitem.entryTags.year, __jsx("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 273
+          lineNumber: 262
         },
         __self: this
       }, ", "), "p. ".concat(bibitem.entryTags.pages), __jsx("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 275
+          lineNumber: 264
         },
         __self: this
       }, ". "), "[", __jsx("a", {
@@ -25125,31 +25108,16 @@ var Index = function Index(_ref) {
         target: "_blank",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 276
+          lineNumber: 265
         },
         __self: this
       }, "PDF"), "]");
     }
-  })), __jsx("ul", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 283
-    },
-    __self: this
-  }, publications.map(function (pb, index) {
-    return __jsx("li", {
-      key: index,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 286
-      },
-      __self: this
-    }, pb.title);
   })))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Row"], {
     className: "justify-content-center pb-4",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 293
+      lineNumber: 275
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
@@ -25157,20 +25125,20 @@ var Index = function Index(_ref) {
     md: "12",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 294
+      lineNumber: 276
     },
     __self: this
   }, __jsx("h3", {
     className: "pb-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 295
+      lineNumber: 277
     },
     __self: this
   }, "Work Experience"), __jsx("ul", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 296
+      lineNumber: 278
     },
     __self: this
   }, workExperience.map(function (we, index) {
@@ -25178,7 +25146,7 @@ var Index = function Index(_ref) {
       key: index,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 299
+        lineNumber: 281
       },
       __self: this
     }, we.title);
@@ -25186,7 +25154,7 @@ var Index = function Index(_ref) {
     className: "justify-content-center pb-4",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 306
+      lineNumber: 288
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
@@ -25194,20 +25162,20 @@ var Index = function Index(_ref) {
     md: "12",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 307
+      lineNumber: 289
     },
     __self: this
   }, __jsx("h3", {
     className: "pb-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 308
+      lineNumber: 290
     },
     __self: this
   }, "Teaching Experience"), __jsx("ul", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 309
+      lineNumber: 291
     },
     __self: this
   }, teachingExperience.map(function (te, index) {
@@ -25215,7 +25183,7 @@ var Index = function Index(_ref) {
       key: index,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 312
+        lineNumber: 294
       },
       __self: this
     }, te.title);
@@ -25223,7 +25191,7 @@ var Index = function Index(_ref) {
     className: "justify-content-center pb-4",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 319
+      lineNumber: 301
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
@@ -25231,20 +25199,20 @@ var Index = function Index(_ref) {
     md: "12",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 320
+      lineNumber: 302
     },
     __self: this
   }, __jsx("h3", {
     className: "pb-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 321
+      lineNumber: 303
     },
     __self: this
   }, "Research Grants"), __jsx("ul", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 324
+      lineNumber: 306
     },
     __self: this
   }, researchGrants.map(function (rg, index) {
@@ -25252,7 +25220,7 @@ var Index = function Index(_ref) {
       key: index,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 327
+        lineNumber: 309
       },
       __self: this
     }, rg.text);
@@ -25260,7 +25228,7 @@ var Index = function Index(_ref) {
     className: "justify-content-center pb-4",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 334
+      lineNumber: 316
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
@@ -25268,20 +25236,20 @@ var Index = function Index(_ref) {
     md: "12",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 335
+      lineNumber: 317
     },
     __self: this
   }, __jsx("h3", {
     className: "pb-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 336
+      lineNumber: 318
     },
     __self: this
   }, "Awards"), __jsx("ul", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 339
+      lineNumber: 321
     },
     __self: this
   }, awards.map(function (aw, index) {
@@ -25289,7 +25257,7 @@ var Index = function Index(_ref) {
       key: index,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 342
+        lineNumber: 324
       },
       __self: this
     }, aw.title);
@@ -25297,7 +25265,7 @@ var Index = function Index(_ref) {
     className: "justify-content-center pb-4",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 349
+      lineNumber: 331
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
@@ -25305,33 +25273,33 @@ var Index = function Index(_ref) {
     md: "12",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 350
+      lineNumber: 332
     },
     __self: this
   }, __jsx("h3", {
     className: "pb-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 351
+      lineNumber: 333
     },
     __self: this
   }, "Patents"), __jsx("ul", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 354
+      lineNumber: 336
     },
     __self: this
   }, __jsx("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 355
+      lineNumber: 337
     },
     __self: this
   }, "\u68EE\u5D8B \u539A\u884C, \u82E5\u6797 \u5553, \u5C0F\u6797 \u6B63\u6A39. \u5272\u5F53\u88C5\u7F6E\u53CA\u3073\u5272\u5F53\u65B9\u6CD5. \u7279\u98582019-035829.")))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Row"], {
     className: "justify-content-center pb-4",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 360
+      lineNumber: 342
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
@@ -25340,57 +25308,57 @@ var Index = function Index(_ref) {
     className: "mb-5 pb-5",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 361
+      lineNumber: 343
     },
     __self: this
   }, __jsx("h3", {
     className: "pb-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 362
+      lineNumber: 344
     },
     __self: this
   }, "Others"), __jsx("ul", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 365
+      lineNumber: 347
     },
     __self: this
   }, __jsx("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 366
+      lineNumber: 348
     },
     __self: this
   }, "The Thirty-Fifth AAAI Conference on Artificial Intelligence (AAAI 2021), Student volunteer staff"), __jsx("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 367
+      lineNumber: 349
     },
     __self: this
   }, "The 40th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2017), Student volunteer staff"), __jsx("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 368
+      lineNumber: 350
     },
     __self: this
   }, "IPA \u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u30AD\u30E3\u30F3\u30D72013 \u5168\u56FD\u5927\u4F1A Web\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u30AF\u30E9\u30B9\u4FEE\u4E86")))))), __jsx("section", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 377
+      lineNumber: 359
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Container"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 378
+      lineNumber: 360
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Row"], {
     className: "justify-content-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 379
+      lineNumber: 361
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
@@ -25399,19 +25367,19 @@ var Index = function Index(_ref) {
     className: "my-5 py-5",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 380
+      lineNumber: 362
     },
     __self: this
   }, __jsx("h3", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 381
+      lineNumber: 363
     },
     __self: this
   }, "Photographs"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Row"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 382
+      lineNumber: 364
     },
     __self: this
   }, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map(function (x, i) {
@@ -25423,7 +25391,7 @@ var Index = function Index(_ref) {
       className: "my-3",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 386
+        lineNumber: 368
       },
       __self: this
     }, __jsx("img", {
@@ -25431,27 +25399,27 @@ var Index = function Index(_ref) {
       src: __webpack_require__("./pages/images/photographs/2016 sync recursive ^\\.\\/.*\\.jpg$")("./".concat(x, ".jpg")),
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 387
+        lineNumber: 369
       },
       __self: this
     }));
   })))))), __jsx("section", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 413
+      lineNumber: 395
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Container"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 414
+      lineNumber: 396
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Row"], {
     className: "justify-content-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 415
+      lineNumber: 397
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
@@ -25460,22 +25428,112 @@ var Index = function Index(_ref) {
     className: "my-5 py-5",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 416
+      lineNumber: 398
     },
     __self: this
   }, __jsx("h3", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 417
+      lineNumber: 399
     },
     __self: this
   }, "Past Projects"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Row"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 418
+      lineNumber: 400
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
+    lg: "4",
+    md: "6",
+    sm: "12",
+    className: "my-3",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 401
+    },
+    __self: this
+  }, __jsx("img", {
+    className: "rounded img-fluid border",
+    src: __webpack_require__(/*! ./images/portfolio/mind_project_2.png */ "./pages/images/portfolio/mind_project_2.png"),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 402
+    },
+    __self: this
+  })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
+    lg: "4",
+    md: "6",
+    sm: "12",
+    className: "my-3",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 404
+    },
+    __self: this
+  }, __jsx("img", {
+    className: "rounded img-fluid border",
+    src: __webpack_require__(/*! ./images/portfolio/mind_project.png */ "./pages/images/portfolio/mind_project.png"),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 405
+    },
+    __self: this
+  })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
+    lg: "4",
+    md: "6",
+    sm: "12",
+    className: "my-3",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 407
+    },
+    __self: this
+  }, __jsx("img", {
+    className: "rounded img-fluid border",
+    src: __webpack_require__(/*! ./images/portfolio/ldaboard_1.png */ "./pages/images/portfolio/ldaboard_1.png"),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 408
+    },
+    __self: this
+  })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
+    lg: "4",
+    md: "6",
+    sm: "12",
+    className: "my-3",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 410
+    },
+    __self: this
+  }, __jsx("img", {
+    className: "rounded img-fluid border",
+    src: __webpack_require__(/*! ./images/portfolio/self_correction_2.png */ "./pages/images/portfolio/self_correction_2.png"),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 411
+    },
+    __self: this
+  })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
+    lg: "4",
+    md: "6",
+    sm: "12",
+    className: "my-3",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 416
+    },
+    __self: this
+  }, __jsx("img", {
+    className: "rounded img-fluid border",
+    src: __webpack_require__(/*! ./images/portfolio/chainerui_1.png */ "./pages/images/portfolio/chainerui_1.png"),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 417
+    },
+    __self: this
+  })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
     lg: "4",
     md: "6",
     sm: "12",
@@ -25487,7 +25545,7 @@ var Index = function Index(_ref) {
     __self: this
   }, __jsx("img", {
     className: "rounded img-fluid border",
-    src: __webpack_require__(/*! ./images/portfolio/mind_project_2.png */ "./pages/images/portfolio/mind_project_2.png"),
+    src: __webpack_require__(/*! ./images/portfolio/escapegoat_1.png */ "./pages/images/portfolio/escapegoat_1.png"),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 420
@@ -25505,7 +25563,7 @@ var Index = function Index(_ref) {
     __self: this
   }, __jsx("img", {
     className: "rounded img-fluid border",
-    src: __webpack_require__(/*! ./images/portfolio/mind_project.png */ "./pages/images/portfolio/mind_project.png"),
+    src: __webpack_require__(/*! ./images/portfolio/emotional_palette.png */ "./pages/images/portfolio/emotional_palette.png"),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 423
@@ -25523,7 +25581,7 @@ var Index = function Index(_ref) {
     __self: this
   }, __jsx("img", {
     className: "rounded img-fluid border",
-    src: __webpack_require__(/*! ./images/portfolio/ldaboard_1.png */ "./pages/images/portfolio/ldaboard_1.png"),
+    src: __webpack_require__(/*! ./images/portfolio/kasuga14_freshman.png */ "./pages/images/portfolio/kasuga14_freshman.png"),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 426
@@ -25541,10 +25599,28 @@ var Index = function Index(_ref) {
     __self: this
   }, __jsx("img", {
     className: "rounded img-fluid border",
-    src: __webpack_require__(/*! ./images/portfolio/self_correction_2.png */ "./pages/images/portfolio/self_correction_2.png"),
+    src: __webpack_require__(/*! ./images/portfolio/klis_setumeikai.png */ "./pages/images/portfolio/klis_setumeikai.png"),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 429
+    },
+    __self: this
+  })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
+    lg: "4",
+    md: "6",
+    sm: "12",
+    className: "my-3",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 431
+    },
+    __self: this
+  }, __jsx("img", {
+    className: "rounded img-fluid border",
+    src: __webpack_require__(/*! ./images/portfolio/home_makky_io.png */ "./pages/images/portfolio/home_makky_io.png"),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 432
     },
     __self: this
   })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
@@ -25559,7 +25635,7 @@ var Index = function Index(_ref) {
     __self: this
   }, __jsx("img", {
     className: "rounded img-fluid border",
-    src: __webpack_require__(/*! ./images/portfolio/chainerui_1.png */ "./pages/images/portfolio/chainerui_1.png"),
+    src: __webpack_require__(/*! ./images/portfolio/makky_io_2015.png */ "./pages/images/portfolio/makky_io_2015.png"),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 435
@@ -25577,7 +25653,7 @@ var Index = function Index(_ref) {
     __self: this
   }, __jsx("img", {
     className: "rounded img-fluid border",
-    src: __webpack_require__(/*! ./images/portfolio/escapegoat_1.png */ "./pages/images/portfolio/escapegoat_1.png"),
+    src: __webpack_require__(/*! ./images/portfolio/media_art_hounted_house.png */ "./pages/images/portfolio/media_art_hounted_house.png"),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 438
@@ -25595,7 +25671,7 @@ var Index = function Index(_ref) {
     __self: this
   }, __jsx("img", {
     className: "rounded img-fluid border",
-    src: __webpack_require__(/*! ./images/portfolio/emotional_palette.png */ "./pages/images/portfolio/emotional_palette.png"),
+    src: __webpack_require__(/*! ./images/portfolio/visubus.png */ "./pages/images/portfolio/visubus.png"),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 441
@@ -25613,7 +25689,7 @@ var Index = function Index(_ref) {
     __self: this
   }, __jsx("img", {
     className: "rounded img-fluid border",
-    src: __webpack_require__(/*! ./images/portfolio/kasuga14_freshman.png */ "./pages/images/portfolio/kasuga14_freshman.png"),
+    src: __webpack_require__(/*! ./images/portfolio/beef_clicker.png */ "./pages/images/portfolio/beef_clicker.png"),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 444
@@ -25631,7 +25707,7 @@ var Index = function Index(_ref) {
     __self: this
   }, __jsx("img", {
     className: "rounded img-fluid border",
-    src: __webpack_require__(/*! ./images/portfolio/klis_setumeikai.png */ "./pages/images/portfolio/klis_setumeikai.png"),
+    src: __webpack_require__(/*! ./images/portfolio/housyasen.png */ "./pages/images/portfolio/housyasen.png"),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 447
@@ -25649,7 +25725,7 @@ var Index = function Index(_ref) {
     __self: this
   }, __jsx("img", {
     className: "rounded img-fluid border",
-    src: __webpack_require__(/*! ./images/portfolio/home_makky_io.png */ "./pages/images/portfolio/home_makky_io.png"),
+    src: __webpack_require__(/*! ./images/portfolio/zishin.png */ "./pages/images/portfolio/zishin.png"),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 450
@@ -25667,7 +25743,7 @@ var Index = function Index(_ref) {
     __self: this
   }, __jsx("img", {
     className: "rounded img-fluid border",
-    src: __webpack_require__(/*! ./images/portfolio/makky_io_2015.png */ "./pages/images/portfolio/makky_io_2015.png"),
+    src: __webpack_require__(/*! ./images/portfolio/shinsai.png */ "./pages/images/portfolio/shinsai.png"),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 453
@@ -25685,7 +25761,7 @@ var Index = function Index(_ref) {
     __self: this
   }, __jsx("img", {
     className: "rounded img-fluid border",
-    src: __webpack_require__(/*! ./images/portfolio/media_art_hounted_house.png */ "./pages/images/portfolio/media_art_hounted_house.png"),
+    src: __webpack_require__(/*! ./images/portfolio/librarysearch_1.png */ "./pages/images/portfolio/librarysearch_1.png"),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 456
@@ -25703,157 +25779,49 @@ var Index = function Index(_ref) {
     __self: this
   }, __jsx("img", {
     className: "rounded img-fluid border",
-    src: __webpack_require__(/*! ./images/portfolio/visubus.png */ "./pages/images/portfolio/visubus.png"),
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 459
-    },
-    __self: this
-  })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
-    lg: "4",
-    md: "6",
-    sm: "12",
-    className: "my-3",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 461
-    },
-    __self: this
-  }, __jsx("img", {
-    className: "rounded img-fluid border",
-    src: __webpack_require__(/*! ./images/portfolio/beef_clicker.png */ "./pages/images/portfolio/beef_clicker.png"),
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 462
-    },
-    __self: this
-  })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
-    lg: "4",
-    md: "6",
-    sm: "12",
-    className: "my-3",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 464
-    },
-    __self: this
-  }, __jsx("img", {
-    className: "rounded img-fluid border",
-    src: __webpack_require__(/*! ./images/portfolio/housyasen.png */ "./pages/images/portfolio/housyasen.png"),
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 465
-    },
-    __self: this
-  })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
-    lg: "4",
-    md: "6",
-    sm: "12",
-    className: "my-3",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 467
-    },
-    __self: this
-  }, __jsx("img", {
-    className: "rounded img-fluid border",
-    src: __webpack_require__(/*! ./images/portfolio/zishin.png */ "./pages/images/portfolio/zishin.png"),
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 468
-    },
-    __self: this
-  })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
-    lg: "4",
-    md: "6",
-    sm: "12",
-    className: "my-3",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 470
-    },
-    __self: this
-  }, __jsx("img", {
-    className: "rounded img-fluid border",
-    src: __webpack_require__(/*! ./images/portfolio/shinsai.png */ "./pages/images/portfolio/shinsai.png"),
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 471
-    },
-    __self: this
-  })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
-    lg: "4",
-    md: "6",
-    sm: "12",
-    className: "my-3",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 473
-    },
-    __self: this
-  }, __jsx("img", {
-    className: "rounded img-fluid border",
-    src: __webpack_require__(/*! ./images/portfolio/librarysearch_1.png */ "./pages/images/portfolio/librarysearch_1.png"),
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 474
-    },
-    __self: this
-  })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
-    lg: "4",
-    md: "6",
-    sm: "12",
-    className: "my-3",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 476
-    },
-    __self: this
-  }, __jsx("img", {
-    className: "rounded img-fluid border",
     src: __webpack_require__(/*! ./images/portfolio/mito_th.png */ "./pages/images/portfolio/mito_th.png"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 477
+      lineNumber: 459
     },
     __self: this
   }))))))), __jsx("div", {
     className: "bg-dark text-white py-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 487
+      lineNumber: 469
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Container"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 488
+      lineNumber: 470
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Row"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 489
+      lineNumber: 471
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
     md: "10",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 490
+      lineNumber: 472
     },
     __self: this
   }, __jsx("p", {
     className: "my-0",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 491
+      lineNumber: 473
     },
     __self: this
   }, __jsx("small", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 492
+      lineNumber: 474
     },
     __self: this
   }, "\xA9 makky.io All Rights Reserved."))))))));
@@ -25865,29 +25833,29 @@ Index.getInitialProps = function _callee(ctx) {
     while (1) {
       switch (_context.prev = _context.next) {
         case 0:
-          bibtex_text = fs__WEBPACK_IMPORTED_MODULE_8___default.a.readFileSync('./bibliography.bib').toString();
-          publicationList = _orcid_bibtex_parse_js__WEBPACK_IMPORTED_MODULE_7___default.a.toJSON(bibtex_text);
-          console.log(publicationList);
-          _context.next = 5;
+          bibtex_text = fs__WEBPACK_IMPORTED_MODULE_8___default.a.readFileSync('./pages/bibliography.bib').toString();
+          publicationList = _orcid_bibtex_parse_js__WEBPACK_IMPORTED_MODULE_7___default.a.toJSON(bibtex_text); // console.log(publicationList)
+
+          _context.next = 4;
           return _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.awrap(isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_3___default()('https://blog.makky.io/feed.xml'));
 
-        case 5:
+        case 4:
           res = _context.sent;
-          _context.next = 8;
+          _context.next = 7;
           return _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.awrap(res.text());
 
-        case 8:
+        case 7:
           text = _context.sent;
           xml = fast_xml_parser__WEBPACK_IMPORTED_MODULE_4___default.a.parse(text);
           posts = xml["rss"]["channel"]["item"];
-          recentBlogPosts = posts.slice(0, 3);
-          console.log(recentBlogPosts);
+          recentBlogPosts = posts.slice(0, 3); // console.log(recentBlogPosts)
+
           return _context.abrupt("return", {
             recentBlogPosts: recentBlogPosts,
             publicationList: publicationList
           });
 
-        case 14:
+        case 12:
         case "end":
           return _context.stop();
       }
@@ -25926,7 +25894,7 @@ var logPageView = function logPageView() {
 
 /***/ }),
 
-/***/ 2:
+/***/ 3:
 /*!**************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fmakky%2Fghq%2Fgithub.com%2Fmakky3939%2Fwww.makky.io%2Fpages%2Findex.js ***!
   \**************************************************************************************************************************************************/
@@ -25938,7 +25906,7 @@ module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absol
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!********************!*\
   !*** fs (ignored) ***!
   \********************/
@@ -25960,5 +25928,5 @@ module.exports = dll_82519ec661270f7f484f;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[3,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
