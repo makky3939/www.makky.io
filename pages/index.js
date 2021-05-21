@@ -85,6 +85,9 @@ const researchGrants = [
 
 const teachingExperience = [
   {
+    "title": "Teaching Assistant, Information Media Laboratory, University of Tsukuba. April 2021 - August 2021."
+  },
+  {
     "title": "Teaching Assistant, Database Technology, University of Tsukuba. October 2020 - December 2020."
   },
   {
@@ -148,6 +151,9 @@ const workExperience = [
 ]
 
 const awards = [
+  {
+    "title": "第13回データ工学と情報マネジメントに関するフォーラム (DEIM2021), 優秀論文賞, 2021-03-03"
+  },
   {
     "title": "第13回データ工学と情報マネジメントに関するフォーラム (DEIM2021), 学生プレゼンテーション賞, 2021-03-03"
   },
