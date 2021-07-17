@@ -76,6 +76,9 @@ const Publication = ({ bibitem }) => {
 
 const researchGrants = [
   {
+    "text": "AIP Challenge Program, JST AIP Network Lab, Japan. 1,000,000 JPY, June 2021 - March 2022."
+  },
+  {
     "text": "AIP Challenge Program, JST AIP Network Lab, Japan. 1,000,000 JPY, August 2020 - March 2021."
   },
   {
