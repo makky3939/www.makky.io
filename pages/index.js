@@ -43,7 +43,7 @@ const Publication = ({ bibitem }) => {
         <span>. </span>
         <b>{bibitem.entryTags.title}</b>
         <span>. </span>
-        {`${bibitem.entryTags.journal} (${bibitem.entryTags.number}:${bibitem.entryTags.volume})`}
+        {`${bibitem.entryTags.journal} (${bibitem.entryTags.volume}:${bibitem.entryTags.number})`}
         <span>. </span>
         {bibitem.entryTags.year}
         <span>, </span>
