@@ -24621,7 +24621,7 @@ var Publication = function Publication(_ref3) {
         lineNumber: 45
       },
       __self: this
-    }, ". "), "".concat(bibitem.entryTags.journal, " (").concat(bibitem.entryTags.number, ":").concat(bibitem.entryTags.volume, ")"), __jsx("span", {
+    }, ". "), "".concat(bibitem.entryTags.journal, " (").concat(bibitem.entryTags.volume, ":").concat(bibitem.entryTags.number, ")"), __jsx("span", {
       __source: {
         fileName: _jsxFileName,
         lineNumber: 47
