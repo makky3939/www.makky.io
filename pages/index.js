@@ -115,11 +115,11 @@ const teachingExperience = [
 
 const workExperience = [
   {
-    "title": "Research Assistant, University of Tsukuba, Japan. April 2019 - Present.",
+    "title": "Research Assistant, University of Tsukuba, Japan. April 2019 - March 2022.",
     "_comment": "As a Member of the JST CREST https://www.dl.soc.i.kyoto-u.ac.jp/system/wp-content/uploads/2019/03/hcompWS18www.pdf CyborgCrowd Project. It is a Japanese funded research project to integrate crowdsourcing and AI technologies."
   },
   {
-    "title": "Engineer (Part-time), Preferred Networks, Inc. October 2017 - Present."
+    "title": "Engineer (Part-time), Preferred Networks, Inc. October 2017 - March 2022."
   },
   {
     "title": "Engineer (Part-time), Bit Journey, Inc. October 2017 - May 2020"
@@ -143,7 +143,7 @@ const workExperience = [
     "title": "Intern, pixiv inc. March 2015"
   },
   {
-    "title": "Engineer (Part-time), 3-shake inc. July　2016 - August 2017"
+    "title": "Engineer (Part-time), 3-shake inc. July 2016 - August 2017"
   },
   {
     "title": "Engineer (Part-time), BearTail inc. May 2014 - March 2015"
@@ -155,7 +155,10 @@ const workExperience = [
 
 const awards = [
   {
-    "title": "第13回データ工学と情報マネジメントに関するフォーラム (DEIM2021), 優秀論文賞, 2021-03-03"
+    "title": "筑波大学 図書館情報メディア研究科 研究科長表彰, 2022-03-25"
+  },
+  {
+    "title": "第13回データ工学と情報マネジメントに関するフォーラム (DEIM2021), 優秀論文賞, 2021-06-24"
   },
   {
     "title": "第13回データ工学と情報マネジメントに関するフォーラム (DEIM2021), 学生プレゼンテーション賞, 2021-03-03"
@@ -387,6 +390,7 @@ const Index = ({ recentBlogPosts, publicationList }) => (
                 Others
               </h3>
               <ul>
+                <li>インタビュー記事: ヒトとAIのタッグが世界を救う⁉―「融合知能」で世界的課題に立ち向かう― - 筑波大学 PhD×FUTURE. [<a href="https://syushoku.sec.tsukuba.ac.jp/phd-future/?topics=%e3%83%92%e3%83%88%e3%81%a8ai%e3%81%ae%e3%82%bf%e3%83%83%e3%82%b0%e3%81%8c%e4%b8%96%e7%95%8c%e3%82%92%e6%95%91%e3%81%86%e2%81%89%e2%80%95%e3%80%8c%e8%9e%8d%e5%90%88%e7%9f%a5%e8%83%bd%e3%80%8d%e3%81%a7" target='_brank'>link</a>]</li>
                 <li>The Thirty-Fifth AAAI Conference on Artificial Intelligence (AAAI 2021), Student volunteer staff</li>
                 <li>The 40th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2017), Student volunteer staff</li>
                 <li>IPA セキュリティキャンプ2013 全国大会 Webセキュリティクラス修了</li>
